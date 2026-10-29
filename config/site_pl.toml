@@ -1,0 +1,180 @@
+# Wersja polska, linki do AliExpress PL przez Awin.
+# Zasady: bez fałszywych opinii, bez cen, bez obietnic medycznych dla kosmetyków.
+
+[site]
+name = "Delikatny Blask"
+tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrzewanie ją wysuszają."
+base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
+awin_mid = "12044"
+awin_affid = "3138840"
+updated = "2026-10-29"
+
+[[guide]]
+slug = "balsam-do-ust-spierzchniete-usta"
+icon = "💋"
+title = "Balsam do spierzchniętych ust: jak wybrać taki, który naprawdę chroni"
+description = "Woski, masła, SPF, bez zapachu: na co zwrócić uwagę przy wyborze balsamu do ust na zimę."
+intro = "Mróz, wiatr i suche powietrze z ogrzewania szybko niszczą usta. Dobry balsam tworzy warstwę ochronną, jeśli dobrze go wybierzesz i nałożysz we właściwym momencie."
+sections = [
+  { h = "Co wyróżnia dobry balsam", bullets = [
+      "Składniki tworzące film ochronny: wosk pszczeli lub roślinny, masło shea, lanolina, wazelina.",
+      "Formuła bez zapachu i aromatu, jeśli usta są wrażliwe: niektóre zapachy mogą podrażniać.",
+      "SPF na narty i słoneczne dni: zimowe słońce odbija się od śniegu.",
+      "Wygodny format: sztyft do kieszeni, słoiczek na bogatszą pielęgnację wieczorem.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Nakładaj przed wyjściem na mróz, a nie dopiero wtedy, gdy usta są już spierzchnięte.",
+      "Nie oblizuj ust: parująca ślina wysusza je jeszcze bardziej.",
+      "Na noc gruba warstwa jak maska pomaga odzyskać komfort.",
+      "Jeśli pęknięcia nie znikają lub krwawią, zapytaj farmaceutę.",
+  ] },
+]
+picks = [
+  { label = "Regenerujące balsamy z masłem shea", why = "Bogate i odżywcze na zimę.", query = "lip balm shea butter repair" },
+  { label = "Balsamy do ust z SPF", why = "Na narty i słoneczne dni.", query = "lip balm spf" },
+  { label = "Maski do ust na noc", why = "Intensywna pielęgnacja podczas snu.", query = "lip sleeping mask" },
+]
+faq = [
+  { q = "Jak często nakładać balsam?", a = "Tak często, jak trzeba, zwłaszcza przed wyjściem i przed snem. Jeśli musisz nakładać go co 10 minut, wypróbuj bogatszą formułę." },
+]
+
+[[guide]]
+slug = "krem-do-suchych-dloni"
+icon = "🤲"
+title = "Krem do suchych dłoni: jak dobrać go do swojego dnia"
+description = "Konsystencja, wchłanianie, składniki, format do torebki lub domu: co sprawdzić, żeby dłonie były komfortowe całą zimę."
+intro = "Częste mycie, żel antybakteryjny i mróz: dłonie często cierpią zimą jako pierwsze. Właściwy krem zależy głównie od tego, kiedy i jak go używasz."
+sections = [
+  { h = "Wybierz konsystencję", bullets = [
+      "Na dzień: lekka konsystencja, która szybko się wchłania i nie zostawia śladów na telefonie.",
+      "Na noc: bogaty krem lub balsam, ewentualnie z bawełnianymi rękawiczkami.",
+      "Bardzo suche dłonie: szukaj gliceryny, mocznika, masła shea lub ceramidów w składzie.",
+  ] },
+  { h = "Przydatne dodatki", bullets = [
+      "Tubka do torebki, żeby nakładać krem po każdym myciu.",
+      "Formuła bez zapachu dla wrażliwej skóry.",
+      "Butelka z pompką do łazienki: używa się jej częściej, gdy jest pod ręką.",
+  ] },
+  { h = "Dobre nawyki", p = ["Dokładnie osuszaj dłonie po myciu, noś rękawiczki na zewnątrz i nakładaj krem na czyste dłonie. Jeśli skóra pęka, czerwienieje lub swędzi, zapytaj farmaceutę lub lekarza."] },
+]
+picks = [
+  { label = "Kremy do bardzo suchych dłoni", why = "Dla dłoni zniszczonych mrozem.", query = "hand cream dry cracked hands" },
+  { label = "Nietłuste kremy do rąk", why = "Na dzień, bez śladów.", query = "non greasy hand cream" },
+  { label = "Nawilżające rękawiczki bawełniane", why = "Skuteczniejsza pielęgnacja na noc.", query = "moisturizing cotton gloves" },
+]
+faq = [
+  { q = "Ile razy dziennie nakładać krem?", a = "Najlepiej po każdym myciu rąk i wieczorem. Mała tubka w torebce pomaga wyrobić nawyk." },
+]
+
+[[guide]]
+slug = "krem-nawilzajacy-do-twarzy-zima"
+icon = "🧴"
+title = "Krem nawilżający do twarzy na zimę: wybór według typu skóry"
+description = "Skóra sucha, mieszana czy wrażliwa: jakie konsystencje i składniki wybierać, gdy jest zimno."
+intro = "Zimą ściągnięta lub łuszcząca się skóra to częsty problem. Zmiana kremu na sezon może wystarczyć, jeśli dobierzesz go do typu skóry."
+sections = [
+  { h = "Według typu skóry", bullets = [
+      "Skóra sucha: bogaty krem z masłami roślinnymi, ceramidami lub gliceryną.",
+      "Skóra mieszana: żel-krem, który nawilża bez błyszczenia strefy T.",
+      "Skóra wrażliwa: krótki skład bez zapachu, najlepiej testowany dermatologicznie.",
+  ] },
+  { h = "Często poszukiwane składniki", bullets = [
+      "Kwas hialuronowy i gliceryna: pomagają zatrzymać wodę w skórze.",
+      "Ceramidy: wspierają barierową funkcję skóry.",
+      "Niacynamid: ceniony za komfort skóry wrażliwej.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Nakładaj na lekko wilgotną skórę po umyciu.",
+      "Nowy produkt przetestuj przez kilka dni na małym fragmencie skóry.",
+      "W słoneczne dni używaj ochrony przeciwsłonecznej, także zimą.",
+  ] },
+]
+picks = [
+  { label = "Bogate kremy do skóry suchej", why = "Dla skóry, która jest ściągnięta.", query = "face cream dry skin ceramide" },
+  { label = "Żele-kremy do skóry mieszanej", why = "Nawilżenie bez tłustego efektu.", query = "gel cream moisturizer" },
+  { label = "Kosmetyki do skóry wrażliwej bez zapachu", why = "Proste, łagodne formuły.", query = "fragrance free moisturizer sensitive skin" },
+]
+faq = [
+  { q = "Czy zimą potrzebny jest inny krem?", a = "Często tak: wiele osób przechodzi na bogatszą konsystencję, gdy jest zimno. Jeśli skóra jest ściągnięta, letni krem jest pewnie za lekki." },
+]
+
+[[guide]]
+slug = "nawilzacz-powietrza-do-sypialni"
+icon = "💧"
+title = "Nawilżacz powietrza do sypialni: sprzymierzeniec skóry w sezonie grzewczym"
+description = "Ultradźwiękowy czy ewaporacyjny, wielkość pokoju, czyszczenie: jak wybrać nawilżacz do sypialni."
+intro = "Ogrzewanie wysusza powietrze, a skóra, usta i włosy to odczuwają. Nawilżacz może poprawić komfort, jeśli jest dobrze dobrany i regularnie czyszczony."
+sections = [
+  { h = "Dwa główne rodzaje", bullets = [
+      "Ultradźwiękowy: cichy, idealny do sypialni. Używaj odpowiedniej wody, żeby ograniczyć biały osad.",
+      "Ewaporacyjny: naturalnie reguluje wilgotność, ale bywa nieco głośniejszy.",
+  ] },
+  { h = "Co sprawdzić", bullets = [
+      "Wielkość pomieszczenia podaną przez producenta.",
+      "Pojemność zbiornika: decyduje o czasie pracy w nocy.",
+      "Automatyczne wyłączanie, gdy zbiornik jest pusty.",
+      "Wbudowany lub osobny higrometr: często celuje się w wilgotność 40–60 %.",
+      "Łatwe czyszczenie: zbiornik z szerokim otworem łatwiej umyć.",
+  ] },
+  { h = "Czyszczenie", p = ["Regularnie opróżniaj i płucz zbiornik oraz przestrzegaj instrukcji producenta: zaniedbane urządzenie może sprzyjać pleśni. Unikaj też zbyt wysokiej wilgotności w pokoju."] },
+]
+picks = [
+  { label = "Ciche nawilżacze ultradźwiękowe", why = "Do spokojnego snu.", query = "quiet ultrasonic humidifier bedroom" },
+  { label = "Higrometry", why = "Do kontroli wilgotności w pokoju.", query = "digital hygrometer indoor" },
+  { label = "Nawilżacze ewaporacyjne", why = "Bardziej naturalna regulacja.", query = "evaporative humidifier" },
+]
+faq = [
+  { q = "Czy można dodawać olejki eteryczne?", a = "Tylko jeśli producent na to pozwala: wiele modeli nie jest do tego przystosowanych i może się zepsuć." },
+]
+
+[[guide]]
+slug = "kalendarz-adwentowy-kosmetyczny"
+icon = "🎄"
+title = "Kalendarz adwentowy z kosmetykami: jak wybrać dobry"
+description = "Pielęgnacja, makijaż czy mieszany, wielkość produktów, marki: nasza lista kontrolna."
+intro = "Kosmetyczne kalendarze adwentowe stały się grudniowym hitem. Ich zawartość bardzo się jednak różni: oto co sprawdzić przed zamówieniem i kiedy zamawiać."
+sections = [
+  { h = "Zamów wcześnie", p = ["Najpopularniejsze kalendarze często znikają w listopadzie. Przy wysyłce z zagranicy zamów jak najwcześniej, żeby otworzyć go 1 grudnia."] },
+  { h = "Na co patrzeć", bullets = [
+      "Szczegółowa zawartość: większość marek publikuje listę produktów.",
+      "Wielkość: miniatury czy pełne rozmiary. Pełne rozmiary są rzadsze, ale starczają na dłużej.",
+      "Rodzaj: pielęgnacja, makijaż, zapachy lub mieszanka.",
+      "Twój typ skóry: sprawdź, czy kosmetyki pielęgnacyjne Ci odpowiadają.",
+  ] },
+]
+picks = [
+  { label = "Kosmetyczne kalendarze adwentowe", why = "24 niespodzianki na grudzień.", query = "beauty advent calendar" },
+  { label = "Kalendarze z pielęgnacją twarzy", why = "Dla miłośniczek pielęgnacji.", query = "skincare advent calendar" },
+  { label = "Kalendarze z makijażem", why = "Dla fanek makijażu.", query = "makeup advent calendar" },
+]
+faq = [
+  { q = "Kiedy go kupić?", a = "Najlepiej w październiku lub na początku listopada, zanim zabraknie towaru i żeby dotarł przed 1 grudnia." },
+]
+
+[[guide]]
+slug = "zestawy-kosmetykow-na-swieta"
+icon = "🎁"
+title = "Zestawy kosmetyków na prezent: świąteczne pomysły, które cieszą"
+description = "Pielęgnacja, zapachy, kąpiel, akcesoria: jak wybrać kosmetyczny prezent bez pomyłki."
+intro = "Zestaw kosmetyków to łatwy prezent, pod warunkiem że dobrze go wybierzesz. Oto pomysły według rodzaju i co sprawdzić, żeby sprawić radość."
+sections = [
+  { h = "Jak dobrze wybrać", bullets = [
+      "Stawiaj na pewne wybory: pielęgnacja dłoni, kąpiel, świece, akcesoria.",
+      "Zapach kupuj tylko taki, którego osoba już używa, albo zestaw miniatur do odkrywania.",
+      "Sprawdź skład, jeśli osoba ma wrażliwą skórę lub znane alergie.",
+      "Przed zamówieniem na święta sprawdź przewidywaną datę dostawy.",
+  ] },
+  { h = "Pomysły według osoby", bullets = [
+      "Dla kogoś, kto lubi się rozpieszczać: zestaw do pielęgnacji twarzy lub domowe spa.",
+      "Dla kogoś, kto ma wszystko: akcesoria (szczotka wygładzająca, roller do twarzy, opaska kosmetyczna).",
+      "Przy małym budżecie: krem do rąk i balsam do ust, zawsze przydatne zimą.",
+  ] },
+]
+picks = [
+  { label = "Zestawy do pielęgnacji twarzy", why = "Klasyk, który się podoba.", query = "skincare gift set" },
+  { label = "Zestawy do kąpieli", why = "Na chwilę relaksu.", query = "bath gift set" },
+  { label = "Akcesoria do pielęgnacji", why = "Dla kogoś, kto ma wszystko.", query = "jade roller gua sha set" },
+]
+faq = [
+  { q = "Czy prezenty dotrą przed świętami?", a = "To zależy od sprzedawcy. Przewidywana data jest podana na AliExpress przed zamówieniem: sprawdź ją i zamawiaj wcześnie." },
+]

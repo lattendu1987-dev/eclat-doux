@@ -1,0 +1,185 @@
+# English version (Amazon.com and other English-speaking stores).
+# Same rules: no fake reviews, no prices, no medical claims for cosmetics.
+
+[site]
+name = "Soft Glow"
+tagline = "Buying guides to care for your skin, especially when cold weather and indoor heating dry it out."
+base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
+amazon_tag = "warmpaws-20"
+amazon_domain = "www.amazon.com"
+updated = "2026-10-29"
+
+[[guide]]
+slug = "lip-balm-chapped-lips"
+icon = "💋"
+title = "Lip balm for chapped lips: how to pick one that really protects"
+description = "Waxes, butters, SPF, fragrance-free: what to look for in a lip balm that works in winter."
+intro = "Cold, wind and dry indoor air quickly take a toll on lips. A good balm forms a protective layer, as long as you choose it well and apply it at the right time."
+sections = [
+  { h = "What makes a good balm", bullets = [
+      "Ingredients that form a protective film: beeswax or plant wax, shea butter, lanolin, petrolatum.",
+      "Fragrance- and flavor-free if your lips are sensitive: some fragrances can irritate.",
+      "SPF for skiing or sunny days: winter sun reflects off snow.",
+      "A handy format: a stick for your pocket, a pot for a richer evening treatment.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Apply before going out in the cold, not only once lips are damaged.",
+      "Avoid licking your lips: evaporating saliva dries them even more.",
+      "At night, a thick layer as an overnight mask helps lips feel comfortable again.",
+      "If cracks persist or bleed, ask a pharmacist for advice.",
+  ] },
+]
+picks = [
+  { label = "Repairing shea lip balms", why = "Rich and nourishing for winter.", query = "repairing lip balm shea butter" },
+  { label = "Lip balms with SPF", why = "For skiing and sunny days.", query = "lip balm spf 30" },
+  { label = "Overnight lip masks", why = "Intense care while you sleep.", query = "overnight lip mask" },
+]
+faq = [
+  { q = "How often should I apply it?", a = "As often as needed, especially before going outside and before bed. If you need to reapply every 10 minutes, try a richer formula." },
+]
+
+[[guide]]
+slug = "hand-cream-dry-hands"
+icon = "🤲"
+title = "Hand cream for dry hands: choosing the right one for your day"
+description = "Texture, absorption, ingredients, purse or home size: what to check for comfortable hands all winter."
+intro = "Frequent washing, hand sanitizer and cold weather: hands are often the first to suffer in winter. The right cream mostly depends on when and how you use it."
+sections = [
+  { h = "Pick the texture", bullets = [
+      "Daytime: a light texture that absorbs quickly and leaves no marks on your phone or keyboard.",
+      "Night: a rich cream or balm, possibly with cotton gloves while you sleep.",
+      "Very dry hands: look for glycerin, urea, shea butter or ceramides in the ingredient list.",
+  ] },
+  { h = "Nice extras", bullets = [
+      "A purse-size tube to reapply after every wash.",
+      "Fragrance-free formulas for sensitive skin.",
+      "A pump bottle for the bathroom: you use it more when it's within reach.",
+  ] },
+  { h = "Good habits", p = ["Dry your hands well after washing, wear gloves outside and apply cream on clean hands. If skin cracks, turns red or itches, ask a pharmacist or doctor."] },
+]
+picks = [
+  { label = "Hand creams for very dry hands", why = "For hands damaged by the cold.", query = "hand cream for very dry cracked hands" },
+  { label = "Non-greasy hand creams", why = "For daytime, no residue.", query = "non greasy fast absorbing hand cream" },
+  { label = "Moisturizing cotton gloves", why = "A more effective overnight treatment.", query = "moisturizing cotton gloves overnight" },
+]
+faq = [
+  { q = "How many times a day should I apply it?", a = "Ideally after each hand wash and at night. Keeping a small tube in your bag helps build the habit." },
+]
+
+[[guide]]
+slug = "winter-face-moisturizer"
+icon = "🧴"
+title = "Winter face moisturizer: choosing by skin type"
+description = "Dry, combination or sensitive skin: which textures and ingredients to look for when it's cold."
+intro = "In winter, tight or flaky skin is common. Switching moisturizers for the cold season may be enough, as long as you choose by skin type."
+sections = [
+  { h = "By skin type", bullets = [
+      "Dry skin: a rich cream with plant butters, ceramides or glycerin.",
+      "Combination skin: a gel-cream that hydrates without making the T-zone shiny.",
+      "Sensitive skin: a short, fragrance-free formula, ideally dermatologist-tested.",
+  ] },
+  { h = "Popular ingredients", bullets = [
+      "Hyaluronic acid and glycerin: they help skin hold on to water.",
+      "Ceramides: they support the skin's barrier role.",
+      "Niacinamide: valued for the comfort of sensitive skin.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Apply on slightly damp skin after cleansing.",
+      "Patch-test a new product on a small area for a few days.",
+      "Keep using sunscreen on sunny days, even in winter.",
+  ] },
+]
+picks = [
+  { label = "Rich creams for dry skin", why = "For skin that feels tight.", query = "face moisturizer dry skin ceramides" },
+  { label = "Gel-creams for combination skin", why = "Hydration without greasiness.", query = "gel cream moisturizer combination skin" },
+  { label = "Fragrance-free sensitive skin care", why = "Simple, gentle formulas.", query = "fragrance free moisturizer sensitive skin" },
+]
+faq = [
+  { q = "Do I need a different cream in winter?", a = "Often, yes: many people switch to a richer texture when it's cold. If your skin feels tight, your summer cream is probably too light." },
+]
+
+[[guide]]
+slug = "bedroom-humidifier"
+icon = "💧"
+title = "Bedroom humidifier: a skin ally when the heating is on"
+description = "Ultrasonic or evaporative, room size, cleaning: how to choose a humidifier for the bedroom."
+intro = "Indoor heating dries the air, and your skin, lips and hair feel it. A humidifier can make the air more comfortable, if you choose it well and keep it clean."
+sections = [
+  { h = "Two main types", bullets = [
+      "Ultrasonic: quiet, ideal for the bedroom. Use suitable water to limit white dust.",
+      "Evaporative: naturally self-regulating, but often slightly louder.",
+  ] },
+  { h = "What to check", bullets = [
+      "The room size stated by the maker.",
+      "Tank capacity: it sets how long it runs overnight.",
+      "Auto shut-off when the tank is empty.",
+      "A built-in or separate hygrometer: humidity around 40 to 60 % is a common target.",
+      "Easy cleaning: a wide-opening tank is easier to clean.",
+  ] },
+  { h = "Cleaning", p = ["Empty and rinse the tank regularly and follow the maker's cleaning instructions: a poorly maintained unit can encourage mold. Also avoid keeping the room too humid."] },
+]
+picks = [
+  { label = "Quiet ultrasonic humidifiers", why = "For undisturbed sleep.", query = "quiet ultrasonic humidifier bedroom" },
+  { label = "Hygrometers", why = "To keep an eye on room humidity.", query = "digital indoor hygrometer" },
+  { label = "Evaporative humidifiers", why = "More natural regulation.", query = "evaporative humidifier" },
+]
+faq = [
+  { q = "Can I add essential oils?", a = "Only if the maker allows it: many models aren't designed for it and can be damaged." },
+]
+
+[[guide]]
+slug = "beauty-advent-calendar"
+icon = "🎄"
+title = "Beauty advent calendar: how to choose the right one"
+description = "Skincare, makeup or mixed, product sizes, brands: our checklist for a calendar that suits you."
+intro = "Beauty advent calendars have become a December must. But contents vary a lot: here's what to check before ordering, and when to order."
+sections = [
+  { h = "Order early", p = ["The most popular calendars often sell out in November. To open it on December 1st, order by mid-November."] },
+  { h = "What to look at", bullets = [
+      "The detailed contents: most brands publish the product list.",
+      "Sizes: minis or full sizes. Full sizes are rarer but last longer.",
+      "Type: skincare, makeup, fragrance, or a mix.",
+      "Your skin type: check that the skincare products suit you.",
+  ] },
+  { h = "As a gift", bullets = [
+      "Pick a brand the person already likes.",
+      "A skincare calendar is easier to get right than a makeup one, whose shades are more personal.",
+  ] },
+]
+picks = [
+  { label = "Beauty advent calendars", why = "24 surprises for December.", query = "beauty advent calendar 2026" },
+  { label = "Skincare advent calendars", why = "For skincare lovers.", query = "skincare advent calendar" },
+  { label = "Makeup advent calendars", why = "For makeup fans.", query = "makeup advent calendar" },
+]
+faq = [
+  { q = "When should I buy it?", a = "Ideally in October or early November, before stock runs out and to receive it before December 1st." },
+]
+
+[[guide]]
+slug = "beauty-gift-sets-christmas"
+icon = "🎁"
+title = "Beauty gift sets: Christmas ideas people actually love"
+description = "Skincare, fragrance, bath sets, accessories: how to choose a beauty gift without getting it wrong."
+intro = "A beauty gift set is an easy present, as long as you choose well. Here are ideas by type and what to check to please for sure."
+sections = [
+  { h = "Choosing well", bullets = [
+      "Stick to safe bets: hand care, bath and shower, candles, accessories.",
+      "For fragrance, give a scent the person already wears, or a discovery set of minis.",
+      "Check ingredients if the person has sensitive skin or known allergies.",
+      "Look at the estimated delivery date before ordering for Christmas.",
+  ] },
+  { h = "Ideas by profile", bullets = [
+      "For someone who loves pampering: a skincare set or a home spa kit.",
+      "For someone who has everything: accessories (smoothing brush, jade roller, skincare headband).",
+      "On a small budget: a hand cream and lip balm trio, always useful in winter.",
+  ] },
+]
+picks = [
+  { label = "Skincare gift sets", why = "A classic that pleases.", query = "skincare gift set for women" },
+  { label = "Bath and shower sets", why = "For a relaxing moment.", query = "bath and body gift set" },
+  { label = "Men's grooming sets", why = "Shaving, beard and skincare.", query = "mens grooming gift set" },
+  { label = "Hand cream and lip balm kits", why = "Small price, always useful.", query = "hand cream lip balm gift set" },
+]
+faq = [
+  { q = "Will gift sets arrive before Christmas?", a = "It depends on the seller. The estimated date is shown on Amazon before you order: check it." },
+]

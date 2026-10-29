@@ -1,0 +1,188 @@
+# Contenu du site Éclat Doux : guides d'achat de soins et de beauté (affiliation Amazon.fr).
+# Règles éditoriales :
+# - Aucun faux avis, aucun « testé par nous » : nous expliquons des critères de choix.
+# - Aucun prix affiché (le contrat Amazon l'interdit hors API officielle).
+# - Cosmétiques : aucune allégation médicale (« guérit », « traite »), aucune promesse garantie.
+# - Divulgation d'affiliation visible sur chaque page.
+
+[site]
+name = "Éclat Doux"
+tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
+base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
+amazon_tag = "pattesauchaud-21"
+updated = "2026-10-29"
+
+[[guide]]
+slug = "baume-levres-gercees"
+icon = "💋"
+title = "Baume à lèvres pour lèvres gercées : comment choisir celui qui protège vraiment"
+description = "Cire, beurres, SPF, sans parfum : les critères pour choisir un baume à lèvres efficace en hiver."
+intro = "Le froid, le vent et l'air sec du chauffage abîment vite les lèvres. Un bon baume forme une barrière protectrice, à condition de bien le choisir et de l'appliquer au bon moment."
+sections = [
+  { h = "Ce qui fait un bon baume", bullets = [
+      "Des ingrédients qui forment un film protecteur : cire d'abeille ou cire végétale, beurre de karité, lanoline, vaseline.",
+      "Une formule sans parfum ni arôme si vos lèvres sont sensibles : certains parfums peuvent irriter.",
+      "Un SPF pour le ski ou les journées ensoleillées : le soleil d'hiver se réverbère sur la neige.",
+      "Un format pratique : stick pour la poche, pot pour un soin plus riche le soir.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Appliquez avant de sortir dans le froid, pas seulement une fois les lèvres abîmées.",
+      "Évitez de lécher vos lèvres : la salive qui s'évapore les dessèche encore plus.",
+      "Le soir, une couche épaisse en masque de nuit aide à retrouver des lèvres confortables.",
+      "Si des gerçures persistent ou saignent, demandez conseil à un pharmacien.",
+  ] },
+]
+picks = [
+  { label = "Baumes réparateurs au karité", why = "Riches et nourrissants pour l'hiver.", query = "baume lèvres karité réparateur" },
+  { label = "Sticks à lèvres avec SPF", why = "Pour le ski et les sorties au soleil.", query = "stick lèvres spf 30 hiver" },
+  { label = "Masques de nuit pour les lèvres", why = "Un soin intense pendant le sommeil.", query = "masque de nuit lèvres" },
+]
+faq = [
+  { q = "Le baume doit-il être appliqué souvent ?", a = "Autant que nécessaire, surtout avant de sortir et avant de dormir. Si vous devez en remettre toutes les 10 minutes, essayez une formule plus riche." },
+]
+
+[[guide]]
+slug = "creme-mains-seches"
+icon = "🤲"
+title = "Crème pour mains sèches : bien la choisir selon votre quotidien"
+description = "Texture, absorption, ingrédients, format sac ou maison : les critères pour des mains confortables tout l'hiver."
+intro = "Lavages fréquents, gel hydroalcoolique, froid : les mains sont souvent les premières à souffrir en hiver. La bonne crème dépend surtout de quand et comment vous l'utilisez."
+sections = [
+  { h = "Choisir la texture", bullets = [
+      "Journée : une texture légère qui pénètre vite et ne laisse pas de traces sur le téléphone ou le clavier.",
+      "Soir : une crème riche ou un baume, éventuellement avec des gants en coton pendant la nuit.",
+      "Mains très sèches : cherchez la glycérine, l'urée, le beurre de karité ou la céramide dans la liste des ingrédients.",
+  ] },
+  { h = "Les petits plus", bullets = [
+      "Un tube format sac pour en remettre après chaque lavage.",
+      "Une formule sans parfum si vous avez la peau sensible.",
+      "Une pompe pour la salle de bain : on l'utilise plus souvent quand elle est à portée de main.",
+  ] },
+  { h = "Les bons gestes", p = ["Séchez bien vos mains après le lavage, portez des gants dehors et appliquez la crème sur des mains propres. Si la peau craque, rougit ou démange, demandez l'avis d'un pharmacien ou d'un médecin."] },
+]
+picks = [
+  { label = "Crèmes mains très sèches", why = "Pour les mains abîmées par le froid.", query = "crème mains très sèches réparatrice" },
+  { label = "Crèmes mains non grasses", why = "Pour la journée, sans traces.", query = "crème mains non grasse pénétration rapide" },
+  { label = "Gants hydratants en coton", why = "Un soin de nuit plus efficace.", query = "gants coton hydratants nuit" },
+]
+faq = [
+  { q = "Combien de fois par jour appliquer la crème ?", a = "Idéalement après chaque lavage de mains et le soir. Un petit tube dans le sac aide à garder le réflexe." },
+]
+
+[[guide]]
+slug = "creme-hydratante-visage-hiver"
+icon = "🧴"
+title = "Crème hydratante visage en hiver : choisir selon votre type de peau"
+description = "Peau sèche, mixte ou sensible : quelle texture et quels ingrédients privilégier quand il fait froid."
+intro = "En hiver, la peau qui tiraille ou qui pèle est fréquente. Changer de crème pour la saison froide peut suffire, à condition de la choisir selon votre type de peau."
+sections = [
+  { h = "Selon votre peau", bullets = [
+      "Peau sèche : une crème riche, avec des beurres végétaux, des céramides ou de la glycérine.",
+      "Peau mixte : une texture gel-crème qui hydrate sans faire briller la zone du front et du nez.",
+      "Peau sensible : une formule courte, sans parfum, et de préférence testée sous contrôle dermatologique.",
+  ] },
+  { h = "Ingrédients souvent recherchés", bullets = [
+      "Acide hyaluronique et glycérine : ils aident à retenir l'eau dans la peau.",
+      "Céramides : elles participent au rôle de barrière de la peau.",
+      "Niacinamide : appréciée pour le confort des peaux sensibles.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Appliquez sur une peau encore légèrement humide après la toilette.",
+      "Testez un nouveau produit sur une petite zone pendant quelques jours.",
+      "Gardez une protection solaire les jours ensoleillés, même en hiver.",
+  ] },
+]
+picks = [
+  { label = "Crèmes riches peau sèche", why = "Pour les peaux qui tiraillent.", query = "crème visage peau sèche céramides" },
+  { label = "Gels-crèmes peau mixte", why = "Hydratation sans effet gras.", query = "gel crème hydratant visage peau mixte" },
+  { label = "Soins peau sensible sans parfum", why = "Des formules simples et douces.", query = "crème visage peau sensible sans parfum" },
+]
+faq = [
+  { q = "Faut-il une crème différente en hiver ?", a = "Souvent oui : beaucoup de personnes passent à une texture plus riche quand il fait froid. Écoutez votre peau : si elle tiraille, votre crème d'été est sans doute trop légère." },
+]
+
+[[guide]]
+slug = "humidificateur-air-chambre"
+icon = "💧"
+title = "Humidificateur d'air : un allié pour la peau quand le chauffage tourne"
+description = "Ultrasonique ou à évaporation, taille de la pièce, entretien : comment choisir un humidificateur pour la chambre."
+intro = "Le chauffage assèche l'air intérieur, et la peau, les lèvres et les cheveux le ressentent. Un humidificateur peut rendre l'air plus confortable, s'il est bien choisi et bien entretenu."
+sections = [
+  { h = "Les deux grands types", bullets = [
+      "Ultrasonique : silencieux, idéal pour la chambre. Utilisez de l'eau adaptée pour limiter les dépôts blancs.",
+      "À évaporation : régule naturellement l'humidité, mais souvent un peu plus bruyant.",
+  ] },
+  { h = "Ce qu'il faut vérifier", bullets = [
+      "La taille de la pièce indiquée par le fabricant.",
+      "La capacité du réservoir : elle détermine l'autonomie pour la nuit.",
+      "L'arrêt automatique quand le réservoir est vide.",
+      "Un hygromètre intégré ou à part : on vise en général une humidité autour de 40 à 60 %.",
+      "La facilité de nettoyage : un réservoir à large ouverture se nettoie mieux.",
+  ] },
+  { h = "Entretien", p = ["Videz et rincez le réservoir régulièrement et suivez les consignes de nettoyage du fabricant : un appareil mal entretenu peut favoriser les moisissures. Évitez aussi une humidité trop élevée dans la pièce."] },
+]
+picks = [
+  { label = "Humidificateurs ultrasoniques silencieux", why = "Pour dormir tranquille.", query = "humidificateur air chambre silencieux" },
+  { label = "Hygromètres", why = "Pour surveiller l'humidité de la pièce.", query = "hygromètre intérieur digital" },
+  { label = "Humidificateurs à évaporation", why = "Régulation plus naturelle.", query = "humidificateur évaporation" },
+]
+faq = [
+  { q = "Peut-on mettre des huiles essentielles dedans ?", a = "Seulement si le fabricant l'autorise : beaucoup de modèles ne sont pas prévus pour ça et peuvent s'abîmer." },
+]
+
+[[guide]]
+slug = "calendrier-avent-beaute"
+icon = "🎄"
+title = "Calendrier de l'Avent beauté : comment choisir le bon"
+description = "Soins, maquillage ou mixte, format des produits, marques : notre checklist pour un calendrier qui vous ressemble."
+intro = "Les calendriers de l'Avent beauté sont devenus un incontournable de décembre. Mais leur contenu varie énormément : voici quoi regarder avant de commander, et quand le commander."
+sections = [
+  { h = "Commandez tôt", p = ["Les calendriers les plus populaires sont souvent épuisés dès novembre. Pour l'ouvrir le 1er décembre, commandez avant la mi-novembre."] },
+  { h = "Ce qu'il faut regarder", bullets = [
+      "Le contenu détaillé : la plupart des marques publient la liste des produits.",
+      "Le format : miniatures ou formats complets. Les formats complets sont plus rares mais durent plus longtemps.",
+      "Le type : soins de la peau, maquillage, parfum, ou un mélange.",
+      "Votre type de peau : vérifiez que les soins proposés vous conviennent.",
+  ] },
+  { h = "Pour offrir", bullets = [
+      "Choisissez une marque que la personne aime déjà.",
+      "Un calendrier de soins plaît plus facilement qu'un calendrier de maquillage, dont les teintes sont plus personnelles.",
+  ] },
+]
+picks = [
+  { label = "Calendriers de l'Avent beauté", why = "24 surprises pour décembre.", query = "calendrier de l'avent beauté 2026" },
+  { label = "Calendriers de l'Avent soins visage", why = "Pour les amatrices de skincare.", query = "calendrier avent soin visage" },
+  { label = "Calendriers de l'Avent maquillage", why = "Pour les passionnées de make-up.", query = "calendrier avent maquillage" },
+]
+faq = [
+  { q = "Quand faut-il l'acheter ?", a = "Idéalement en octobre ou début novembre, avant les ruptures de stock et pour être livré avant le 1er décembre." },
+]
+
+[[guide]]
+slug = "coffret-cadeau-beaute-noel"
+icon = "🎁"
+title = "Coffrets cadeaux beauté : idées pour Noël qui font vraiment plaisir"
+description = "Coffrets soins, parfum, bain, accessoires : comment choisir un cadeau beauté sans se tromper."
+intro = "Un coffret beauté est un cadeau facile, à condition de bien le choisir. Voici des idées par type et les points à vérifier pour faire plaisir à coup sûr."
+sections = [
+  { h = "Bien choisir", bullets = [
+      "Restez sur des valeurs sûres : soins des mains, bain et douche, bougies, accessoires.",
+      "Pour le parfum, offrez une fragrance que la personne porte déjà, ou un coffret découverte de miniatures.",
+      "Vérifiez les ingrédients si la personne a la peau sensible ou des allergies connues.",
+      "Regardez la date de livraison estimée avant de commander pour Noël.",
+  ] },
+  { h = "Idées par profil", bullets = [
+      "Pour elle ou lui qui aime se chouchouter : un coffret soin visage ou un kit spa à la maison.",
+      "Pour celle ou celui qui a tout : des accessoires (brosse lissante, rouleau de jade, bandeau soin).",
+      "Pour un petit budget : un trio crème mains et baume à lèvres, toujours utile en hiver.",
+  ] },
+]
+picks = [
+  { label = "Coffrets soins visage", why = "Un classique qui plaît.", query = "coffret cadeau soin visage femme" },
+  { label = "Coffrets bain et douche", why = "Pour un moment de détente.", query = "coffret cadeau bain douche" },
+  { label = "Coffrets homme soins", why = "Rasage, barbe et soins.", query = "coffret cadeau soin homme" },
+  { label = "Kits crème mains et lèvres", why = "Petit prix, toujours utile.", query = "coffret crème mains baume lèvres" },
+]
+faq = [
+  { q = "Les coffrets arrivent-ils avant Noël ?", a = "Cela dépend du vendeur. La date estimée est affichée sur Amazon avant la commande : vérifiez-la." },
+]
