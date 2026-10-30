@@ -56,4 +56,9 @@ def stores_js() -> str:
     import json
     data = config.load_toml("bestsellers.toml")
     m = {s["region"]: {"d": s["domain"], "t": s["tag"]} for s in data["store"] if s.get("tag") and s.get("region")}
-    return "window.PAC_STORES = " + json.dumps(m, separators=(",", ":")) + ";\n"
+    js = "window.PAC_STORES = " + json.dumps(m, separators=(",", ":")) + ";\n"
+    if (config.CONFIG_DIR / "aliexpress.toml").exists():
+        ali = config.load_toml("aliexpress.toml")
+        a = {r: p["mid"] for p in ali["program"] for r in p["regions"]}
+        js += "window.PAC_ALI = " + json.dumps({"affid": ali["affid"], "mid": a}, separators=(",", ":")) + ";\n"
+    return js

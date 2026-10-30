@@ -116,7 +116,8 @@ def guide_body(site: dict, g: dict) -> str:
         parts.append("</section>")
     picks = "".join(
         f"""<li class="pick reveal"><div><h3>{e(p['label'])}</h3><p>{e(p['why'])}</p></div>
-<a class="btn btn-small" href="{e(amazon_url(p['query'], tag, domain))}" rel="sponsored nofollow noopener" target="_blank">See prices on Amazon</a></li>"""
+<a class="btn btn-small" href="{e(amazon_url(p['query'], tag, domain))}" rel="sponsored nofollow noopener" target="_blank">See prices on Amazon</a>
+<a class="btn btn-small btn-ali" hidden href="#" data-ali="{e(p['query'])}" rel="sponsored nofollow noopener" target="_blank">Also on AliExpress</a></li>"""
         for p in g.get("picks", [])
     )
     parts.append(f'<section class="block"><h2 class="reveal">Where to look</h2><ul class="picks">{picks}</ul>'
@@ -132,6 +133,7 @@ STATIC_PAGES = {
     "disclosure.html": ("Disclosure", "How this site is funded.", """<article class="guide prose">
 <h1>Disclosure</h1>
 <p>As an Amazon Associate I earn from qualifying purchases.</p>
+<p>Depending on your country, some links also go to AliExpress, through the Awin affiliate network.</p>
 <p>When you buy after clicking one of our links, we may receive a commission. The price you pay does not change.</p>
 <p>We receive no free products or payments from brands. Our guides present buying criteria; they do not claim to have tested every product.</p>
 </article>"""),

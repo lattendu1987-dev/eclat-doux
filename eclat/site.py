@@ -128,7 +128,8 @@ def guide_body(g: dict, tag: str) -> str:
         parts.append("</section>")
     picks = "".join(
         f"""<li class="pick reveal"><div><h3>{e(p['label'])}</h3><p>{e(p['why'])}</p></div>
-<a class="btn btn-small" href="{e(amazon_url(p['query'], tag))}" rel="sponsored nofollow noopener" target="_blank">Voir les prix sur Amazon.fr</a></li>"""
+<a class="btn btn-small" href="{e(amazon_url(p['query'], tag))}" rel="sponsored nofollow noopener" target="_blank">Voir les prix sur Amazon.fr</a>
+<a class="btn btn-small btn-ali" hidden href="#" data-ali="{e(p['query'])}" rel="sponsored nofollow noopener" target="_blank">Voir aussi sur AliExpress</a></li>"""
         for p in g.get("picks", [])
     )
     parts.append(f'<section class="block"><h2 class="reveal">Où chercher</h2><ul class="picks">{picks}</ul>'
@@ -144,6 +145,7 @@ STATIC_PAGES = {
     "divulgation.html": ("Divulgation", "Comment ce site est financé.", """<article class="guide prose">
 <h1>Divulgation</h1>
 <p>Ce site participe au Programme Partenaires d'Amazon EU, un programme d'affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr.</p>
+<p>Selon votre pays, certains liens mènent aussi vers AliExpress, via le réseau d'affiliation Awin.</p>
 <p>Quand vous achetez après avoir cliqué sur l'un de nos liens, nous pouvons recevoir une commission. Le prix que vous payez ne change pas.</p>
 <p>Nous ne recevons ni produits gratuits ni paiements de marques. Nos guides présentent des critères de choix ; ils ne prétendent pas avoir testé chaque produit.</p>
 </article>"""),

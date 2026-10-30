@@ -18,8 +18,7 @@
 // Envoie chaque visiteur vers la boutique Amazon de son pays (si un identifiant Partenaire existe).
 // Pays déduit de la langue du navigateur et du fuseau horaire ; aucun cookie, aucune donnée envoyée.
 (function () {
-  var stores = window.PAC_STORES;
-  if (!stores) return;
+  var stores = window.PAC_STORES || {};
   var tz = "";
   try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
   var byTz = { "Europe/London": "GB", "Europe/Paris": "FR", "Europe/Berlin": "DE", "Europe/Madrid": "ES",
@@ -28,6 +27,16 @@
   var region = byTz[tz];
   if (!region && /^America\//.test(tz)) region = "US";
   if (!region) { var m = (navigator.language || "").split("-")[1]; if (m) region = m.toUpperCase(); }
+  // Bouton AliExpress : seulement si un programme Awin accepté couvre le pays du visiteur.
+  var ali = window.PAC_ALI;
+  if (ali && region && ali.mid[region]) {
+    document.querySelectorAll("a.btn-ali[data-ali]").forEach(function (a) {
+      var q = a.getAttribute("data-ali").trim().replace(/\s+/g, "-");
+      var target = "https://www.aliexpress.com/w/wholesale-" + encodeURIComponent(q) + ".html";
+      a.href = "https://www.awin1.com/cread.php?awinmid=" + ali.mid[region] + "&awinaffid=" + ali.affid + "&ued=" + encodeURIComponent(target);
+      a.hidden = false;
+    });
+  }
   var store = stores[region];
   if (!store) return;
   document.querySelectorAll('a[href*="amazon."]').forEach(function (a) {

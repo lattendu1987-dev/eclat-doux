@@ -1,0 +1,18 @@
+# Programmes AliExpress acceptés sur Awin (éditeur 3138840).
+# Le bouton « AliExpress » n'apparaît que pour les visiteurs d'un pays couvert par un programme accepté.
+affid = "3138840"
+
+[[program]]
+name = "AliExpress UK"
+mid = "7035"
+regions = ["GB"]
+
+[[program]]
+name = "AliExpress EU"
+mid = "119135"
+regions = ["AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PT", "RO", "SE", "SI", "SK"]
+
+[[program]]
+name = "AliExpress PL"
+mid = "12044"
+regions = ["PL"]
