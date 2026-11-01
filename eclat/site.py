@@ -182,6 +182,28 @@ STATIC_PAGES = {
 }
 
 
+HASHTAGS = "#soinpeau #beauté #routinesoin #peausèche #skincare #hiver #guidedachat #cadeaubeauté"
+
+
+def reel_caption(g: dict) -> str:
+    """Légende Instagram / TikTok pour la vidéo d'un guide (le lien est dans la bio)."""
+    subject = g["title"].split(" : ")[0].strip()
+    return (f"{subject} {g['icon']}\n\n{g['description']}\n\n"
+            f"👉 Le guide complet et gratuit : lien dans la bio\n(guide avec liens affiliés)\n\n{HASHTAGS}")
+
+
+def videos_html(guides: list[dict]) -> str:
+    out = []
+    for g in sorted(guides, key=lambda g: g.get("date", ""), reverse=True):
+        if not (config.ROOT / "static" / "videos" / f"{g['slug']}.mp4").exists():
+            continue
+        out.append(f"""<section class="kit reveal"><h3>{e(g['title'].split(' : ')[0])}</h3>
+<video src="videos/{e(g['slug'])}.mp4" controls playsinline preload="none" poster="pins/{e(g['slug'])}.png" style="width:100%;max-width:280px;border-radius:12px"></video>
+<p><a class="btn btn-small" href="videos/{e(g['slug'])}.mp4" download>Enregistrer la vidéo</a></p>
+<p class="label">Légende</p><div class="copy"><span style="white-space:pre-line">{e(reel_caption(g))}</span><button type="button">Copier</button></div></section>""")
+    return "".join(out)
+
+
 def kit_page(site: dict, guides: list[dict]) -> str:
     """Page privée (non référencée) : images Pinterest et messages Facebook prêts à publier."""
     promo = config.load_toml("promo.toml") if (config.CONFIG_DIR / "promo.toml").exists() else {}
@@ -207,6 +229,7 @@ def kit_page(site: dict, guides: list[dict]) -> str:
 <p><a class="btn btn-small" href="epingles-semaine.csv" download>Fichier : épingles de la semaine (FR + EN)</a></p>
 <p><a class="btn btn-small" href="epingles-anglais-toutes.csv" download>Fichier : toutes les épingles en anglais</a></p></section>
 <h2>Photo de profil</h2><section class="kit reveal"><img src="logo.png" alt="Logo Éclat Doux" width="800" height="800" style="max-width:240px"><p><a class="btn btn-small" href="logo.png" download>Enregistrer le logo</a></p></section>
+<h2>Vidéos (Reels Instagram, TikTok, Shorts)</h2><section class="kit reveal"><p>Enregistrez la vidéo, publiez-la en Reel, ajoutez une musique tendance dans l'application, puis collez la légende. Le lien du site doit être dans la bio du profil.</p></section>{videos_html(guides)}
 <h2>Messages Facebook</h2>{posts}
 <h2>Épingles Pinterest</h2>{"".join(pins)}</article>
 <script>document.querySelectorAll('.copy button').forEach(function(b){{b.addEventListener('click',function(){{
@@ -248,6 +271,26 @@ def pins_rows(site: dict, guides: list[dict], since: str | None = None, *, lang:
             "",
             keywords,
         ])
+    return rows
+
+
+def plan_rows(fr_site: dict, en_site: dict, items) -> list[list[str]]:
+    """Lignes Pinterest pour le planning de la semaine (une épingle par jour et par langue)."""
+    rows = []
+    for lang, g, variant, day in items:
+        site = en_site if lang == "en" else fr_site
+        base = site["base_url"].rstrip("/") + "/"
+        row = pins_rows(site, [dict(g, epingle_manuelle=False)], lang=lang)[0]
+        sep = ":" if lang == "en" else " : "
+        subject = g["title"].split(sep)[0].strip()
+        hook = g["title"].split(sep, 1)[1].strip() if sep in g["title"] else subject
+        if variant != "a":
+            row[1] = row[1][: -len(".png")] + f"-{variant}.png"
+            joiner = ": " if lang == "en" else " : "
+            tips = "our tips" if lang == "en" else "nos conseils"
+            row[0] = (f"{subject}{joiner}{hook}" if variant == "b" else f"{subject}{joiner}{tips}")[:100]
+        row[6] = day
+        rows.append(row)
     return rows
 
 
@@ -333,17 +376,14 @@ def build(out_dir: Path | None = None) -> Path:
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sitemap}\n</urlset>\n',
         encoding="utf-8")
     (out / "feed.xml").write_text(rss_feed(site, guides), encoding="utf-8")
-    from datetime import date, timedelta
-    # Guides publiés depuis le dernier import du samedi (le samedi précédant la date de mise à jour).
-    upd = date.fromisoformat(site["updated"])
-    last_saturday = upd - timedelta(days=((upd.weekday() - 5) % 7) or 7)
-    week_ago = (last_saturday + timedelta(days=1)).isoformat()
+    from datetime import date
+    from . import pinplan
     en = config.load_toml("site_en.toml")
     (out / "epingles-toutes.csv").write_text(pins_csv(pins_rows(site, guides)), encoding="utf-8")
     (out / "epingles-anglais-toutes.csv").write_text(pins_csv(pins_rows(en["site"], en["guide"], lang="en")), encoding="utf-8")
-    (out / "epingles-semaine.csv").write_text(pins_csv(
-        pins_rows(site, guides, since=week_ago),
-        pins_rows(en["site"], en["guide"], since=week_ago, lang="en")), encoding="utf-8")
+    # Planning du samedi : 1 épingle par jour et par langue, publiée automatiquement par Pinterest.
+    _, items = pinplan.week_plan({"fr": guides, "en": en["guide"]}, date.today())
+    (out / "epingles-semaine.csv").write_text(pins_csv(plan_rows(site, en["site"], items)), encoding="utf-8")
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /kit-partage.html\nSitemap: {base}sitemap.xml\n", encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
     return out

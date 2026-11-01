@@ -131,3 +131,20 @@ class CosmeticClaimsTest(unittest.TestCase):
         for name in ["site.toml", "site_en.toml", "site_pl.toml", "promo.toml"]:
             text = "\n".join(l for l in (config.CONFIG_DIR / name).read_text(encoding="utf-8").lower().splitlines() if not l.startswith("#"))
             self.assertNotRegex(text, r"\b(guérit|guérir|traite|cures?|heals?|leczy|anti-âge garanti)\b", name)
+
+
+class PinPlanTest(unittest.TestCase):
+    def test_one_pin_per_day_and_no_repeat(self):
+        from datetime import date
+        from unittest import mock
+        from eclat import pinplan
+        guides = {"fr": [{"slug": f"g{i}", "date": f"2026-10-{10+i}"} for i in range(5)], "en": []}
+        store = {"done": ["fr:g0:a"], "weeks": {}}
+        with mock.patch.object(pinplan, "load", lambda: store), mock.patch.object(pinplan, "save", lambda p: None):
+            key, items = pinplan.week_plan(guides, date(2026, 11, 2))
+            self.assertEqual(key, "2026-11-07")
+            self.assertEqual([d for *_, d in items], [f"2026-11-{d:02d}" for d in range(8, 15)])
+            self.assertEqual(items[0][1]["slug"], "g4")  # le guide le plus récent d'abord
+            _, nxt = pinplan.week_plan(guides, date(2026, 11, 8))
+            first = {(g["slug"], v) for _, g, v, _ in items}
+            self.assertFalse(first & {(g["slug"], v) for _, g, v, _ in nxt})

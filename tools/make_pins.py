@@ -74,3 +74,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Couleurs des variantes B et C (tools/make_variants.py) : foncé, accent, clair, doux.
+PALETTE = ("#3a1d2e", "#c2577a", "#fbf6f4", "#f6c1d1")
+BRAND_ICON = "🌸"

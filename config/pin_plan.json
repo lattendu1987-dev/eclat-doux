@@ -1,0 +1,34 @@
+{
+ "done": [
+  "fr:baume-levres-gercees:a",
+  "fr:creme-mains-seches:a",
+  "fr:creme-hydratante-visage-hiver:a",
+  "fr:humidificateur-air-chambre:a",
+  "fr:calendrier-avent-beaute:a",
+  "fr:coffret-cadeau-beaute-noel:a",
+  "en:lip-balm-chapped-lips:a",
+  "en:hand-cream-dry-hands:a",
+  "en:winter-face-moisturizer:a",
+  "en:bedroom-humidifier:a",
+  "en:beauty-advent-calendar:a",
+  "en:beauty-gift-sets-christmas:a"
+ ],
+ "weeks": {
+  "2026-11-07": [
+   "fr:baume-levres-gercees:b",
+   "fr:creme-mains-seches:b",
+   "fr:creme-hydratante-visage-hiver:b",
+   "fr:humidificateur-air-chambre:b",
+   "fr:calendrier-avent-beaute:b",
+   "fr:coffret-cadeau-beaute-noel:b",
+   "fr:baume-levres-gercees:c",
+   "en:lip-balm-chapped-lips:b",
+   "en:hand-cream-dry-hands:b",
+   "en:winter-face-moisturizer:b",
+   "en:bedroom-humidifier:b",
+   "en:beauty-advent-calendar:b",
+   "en:beauty-gift-sets-christmas:b",
+   "en:lip-balm-chapped-lips:c"
+  ]
+ }
+}
