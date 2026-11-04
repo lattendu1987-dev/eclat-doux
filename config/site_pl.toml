@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-10-29"
+updated = "2026-11-03"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -177,4 +177,37 @@ picks = [
 ]
 faq = [
   { q = "Czy prezenty dotrą przed świętami?", a = "To zależy od sprzedawcy. Przewidywana data jest podana na AliExpress przed zamówieniem: sprawdź ją i zamawiaj wcześnie." },
+]
+
+[[guide]]
+slug = "suche-wlosy-zima-pielegnacja"
+icon = "💇"
+title = "Suche włosy zimą: jaką pielęgnację wybrać, gdy czapka i ogrzewanie dają się we znaki"
+description = "Maska, odżywka, olejek, czapka z satynową podszewką: na co zwrócić uwagę, by włosy były miękkie przez całą zimę."
+intro = "Czapka, mroźny wiatr i suche powietrze w domu: zimą wiele osób ma suche, elektryzujące się i łamliwe włosy. Kilka dobrze dobranych kosmetyków i prostych nawyków często wystarcza, by odzyskać miękkość."
+sections = [
+  { h = "Przydatne kosmetyki", bullets = [
+      "Odżywka po każdym myciu: rozplątuje i wygładza długość włosów.",
+      "Odżywcza maska raz w tygodniu, na długość i końcówki.",
+      "Odrobina olejku lub serum na końcówki, na suche lub wilgotne włosy.",
+      "Odżywka bez spłukiwania dla włosów grubych lub kręconych.",
+  ] },
+  { h = "Na co zwrócić uwagę", bullets = [
+      "Typ włosów na etykiecie: cienkie, grube, kręcone, farbowane.",
+      "Lekkie konsystencje dla cienkich włosów, bogatsze dla grubych.",
+      "Łagodny szampon, używany nie częściej niż trzeba.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Zmniejsz temperaturę suszarki i używaj ochrony przed ciepłem.",
+      "Czapka lub poszewka z satyną ograniczają tarcie i elektryzowanie.",
+      "Spłukuj letnią, a nie bardzo gorącą wodą.",
+  ] },
+]
+picks = [
+  { label = "Odżywcze maski do włosów", why = "Cotygodniowa pielęgnacja długości.", query = "hair mask dry hair" },
+  { label = "Olejki na suche końcówki", why = "Wystarczy kilka kropli.", query = "hair oil dry ends" },
+  { label = "Czapki z satynową podszewką", why = "Mniej tarcia i elektryzowania.", query = "satin lined beanie" },
+]
+faq = [
+  { q = "Jak często robić maskę?", a = "Zwykle wystarczy raz w tygodniu. Przestrzegaj podanego czasu i dobrze spłucz." },
 ]

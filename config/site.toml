@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-10-29"
+updated = "2026-11-03"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -185,4 +185,38 @@ picks = [
 ]
 faq = [
   { q = "Les coffrets arrivent-ils avant Noël ?", a = "Cela dépend du vendeur. La date estimée est affichée sur Amazon avant la commande : vérifiez-la." },
+]
+
+[[guide]]
+slug = "soin-cheveux-secs-hiver"
+date = "2026-11-03"
+icon = "💇"
+title = "Cheveux secs en hiver : les soins à choisir quand bonnet et chauffage s'en mêlent"
+description = "Masque, après-shampooing, huile, bonnet doublé satin : les critères pour garder des cheveux doux tout l'hiver."
+intro = "Bonnet, vent froid, air sec du chauffage : en hiver, beaucoup de cheveux deviennent secs, électriques et cassants. Quelques soins bien choisis et de petits gestes suffisent souvent à retrouver de la douceur."
+sections = [
+  { h = "Les soins utiles", bullets = [
+      "Après-shampooing à chaque lavage : il démêle et lisse les longueurs.",
+      "Masque nourrissant une fois par semaine, sur les longueurs et les pointes.",
+      "Huile ou sérum en petite quantité sur les pointes, sur cheveux secs ou humides.",
+      "Soin sans rinçage pour les cheveux épais ou bouclés.",
+  ] },
+  { h = "Les critères qui comptent", bullets = [
+      "Le type de cheveux indiqué sur l'étiquette : fins, épais, bouclés, colorés.",
+      "Des textures légères pour les cheveux fins, plus riches pour les cheveux épais.",
+      "Un shampooing doux, et pas plus souvent que nécessaire.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Baissez la température du sèche-cheveux et utilisez un protecteur de chaleur.",
+      "Un bonnet ou une taie d'oreiller doublés de satin limitent les frottements et l'électricité statique.",
+      "Rincez à l'eau tiède plutôt que très chaude.",
+  ] },
+]
+picks = [
+  { label = "Masques cheveux nourrissants", why = "Le soin hebdomadaire des longueurs.", query = "masque cheveux secs nourrissant" },
+  { label = "Huiles pour pointes sèches", why = "Quelques gouttes suffisent.", query = "huile cheveux pointes sèches" },
+  { label = "Bonnets doublés satin", why = "Moins de frottements et d'électricité.", query = "bonnet doublé satin" },
+]
+faq = [
+  { q = "Combien de fois faire un masque ?", a = "Une fois par semaine suffit en général. Suivez le temps de pose indiqué et rincez bien." },
 ]

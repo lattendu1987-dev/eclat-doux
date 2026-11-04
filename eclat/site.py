@@ -283,7 +283,7 @@ def plan_rows(fr_site: dict, en_site: dict, items) -> list[list[str]]:
         row = pins_rows(site, [dict(g, epingle_manuelle=False)], lang=lang)[0]
         sep = ":" if lang == "en" else " : "
         subject = g["title"].split(sep)[0].strip()
-        hook = g["title"].split(sep, 1)[1].strip() if sep in g["title"] else subject
+        hook = g["title"].split(sep, 1)[1].strip() if sep in g["title"] else g["description"].split(":")[0].strip().rstrip(".")
         if variant != "a":
             row[1] = row[1][: -len(".png")] + f"-{variant}.png"
             joiner = ": " if lang == "en" else " : "
