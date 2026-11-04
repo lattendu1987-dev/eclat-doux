@@ -78,3 +78,12 @@ if __name__ == "__main__":
 # Couleurs des variantes B et C (tools/make_variants.py) : foncé, accent, clair, doux.
 PALETTE = ("#3a1d2e", "#c2577a", "#fbf6f4", "#f6c1d1")
 BRAND_ICON = "🌸"
+
+# QR codes des liens importants (tools/make_qr.py) : (fichier, titre, adresse).
+QR_LINKS = [
+    ("site", "Éclat Doux", "https://lattendu1987-dev.github.io/eclat-doux/"),
+    ("site-en", "Soft Glow (English)", "https://lattendu1987-dev.github.io/eclat-doux/en/"),
+    ("site-pl", "Delikatny Blask (Polski)", "https://lattendu1987-dev.github.io/eclat-doux/pl/"),
+    ("pinterest", "Pinterest Éclat Doux", "https://www.pinterest.com/lattendu1987eclat/"),
+    ("kit", "Kit de partage (privé)", "https://lattendu1987-dev.github.io/eclat-doux/kit-partage.html"),
+]

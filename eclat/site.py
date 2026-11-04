@@ -228,6 +228,7 @@ def kit_page(site: dict, guides: list[dict]) -> str:
 <p><a class="btn btn-small" href="epingles-toutes.csv" download>Fichier : toutes les épingles</a></p>
 <p><a class="btn btn-small" href="epingles-semaine.csv" download>Fichier : épingles de la semaine (FR + EN)</a></p>
 <p><a class="btn btn-small" href="epingles-anglais-toutes.csv" download>Fichier : toutes les épingles en anglais</a></p></section>
+<h2>QR codes</h2><section class="kit reveal"><p>À imprimer (flyer, carte, colis) ou à montrer sur votre téléphone : on scanne et on arrive directement sur la page.</p>{"".join(f'<p><img src="qr/{q.name}" alt="QR code {q.stem}" width="300" height="367" loading="lazy"><br><a class="btn btn-small" href="qr/{q.name}" download>Enregistrer</a></p>' for q in sorted((config.ROOT / "static" / "qr").glob("*.png")))}</section>
 <h2>Photo de profil</h2><section class="kit reveal"><img src="logo.png" alt="Logo Éclat Doux" width="800" height="800" style="max-width:240px"><p><a class="btn btn-small" href="logo.png" download>Enregistrer le logo</a></p></section>
 <h2>Vidéos (Reels Instagram, TikTok, Shorts)</h2><section class="kit reveal"><p>Enregistrez la vidéo, publiez-la en Reel, ajoutez une musique tendance dans l'application, puis collez la légende. Le lien du site doit être dans la bio du profil.</p></section>{videos_html(guides)}
 <h2>Messages Facebook</h2>{posts}
