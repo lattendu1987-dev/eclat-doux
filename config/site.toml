@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-03"
+updated = "2026-11-06"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -219,4 +219,38 @@ picks = [
 ]
 faq = [
   { q = "Combien de fois faire un masque ?", a = "Une fois par semaine suffit en général. Suivez le temps de pose indiqué et rincez bien." },
+]
+
+[[guide]]
+slug = "gommage-corps-hiver"
+date = "2026-11-06"
+icon = "🛁"
+title = "Gommage corps en hiver : bien le choisir pour une peau douce sans l'agresser"
+description = "Gommage au sucre, au sel, gant exfoliant ou formule douce : les critères pour exfolier en douceur pendant la saison froide."
+intro = "En hiver, la peau du corps peut paraître terne et rêche sous les vêtements chauds. Un gommage doux, suivi d'une bonne hydratation, aide à retrouver une peau plus lisse au toucher, à condition de ne pas en abuser."
+sections = [
+  { h = "Les grands types", bullets = [
+      "Gommage au sucre : grains qui fondent, plutôt doux, adapté à la plupart des peaux.",
+      "Gommage au sel : plus intense, à éviter sur la peau irritée ou juste après le rasage.",
+      "Gant ou éponge exfoliante : économique et réutilisable, à bien laver et sécher.",
+      "Formule douce à grains fins : pour les peaux sensibles.",
+  ] },
+  { h = "Les critères qui comptent", bullets = [
+      "La taille des grains : plus ils sont fins, plus le gommage est doux.",
+      "Une base nourrissante (huiles, beurres) si votre peau est sèche.",
+      "Un parfum léger, ou aucun parfum, si votre peau est sensible.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Une fois par semaine suffit en général, sur peau mouillée, en petits mouvements circulaires.",
+      "Évitez le visage, les zones irritées et la peau juste rasée.",
+      "Appliquez ensuite un lait ou une crème pour le corps.",
+  ] },
+]
+picks = [
+  { label = "Gommages corps au sucre", why = "Doux et adaptés à la plupart des peaux.", query = "gommage corps sucre" },
+  { label = "Gants exfoliants", why = "Réutilisables et économiques.", query = "gant exfoliant corps" },
+  { label = "Laits corps nourrissants", why = "Indispensables après le gommage.", query = "lait corps nourrissant peau sèche" },
+]
+faq = [
+  { q = "Combien de fois par semaine ?", a = "Une fois par semaine convient à la plupart des peaux. Si votre peau rougit ou tiraille, espacez davantage." },
 ]

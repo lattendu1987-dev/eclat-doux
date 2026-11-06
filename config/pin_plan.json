@@ -15,20 +15,20 @@
  ],
  "weeks": {
   "2026-11-07": [
+   "fr:gommage-corps-hiver:a",
    "fr:soin-cheveux-secs-hiver:a",
    "fr:baume-levres-gercees:b",
    "fr:creme-mains-seches:b",
    "fr:creme-hydratante-visage-hiver:b",
    "fr:humidificateur-air-chambre:b",
    "fr:calendrier-avent-beaute:b",
-   "fr:coffret-cadeau-beaute-noel:b",
+   "en:winter-body-scrub:a",
    "en:dry-hair-winter-care:a",
    "en:lip-balm-chapped-lips:b",
    "en:hand-cream-dry-hands:b",
    "en:winter-face-moisturizer:b",
    "en:bedroom-humidifier:b",
-   "en:beauty-advent-calendar:b",
-   "en:beauty-gift-sets-christmas:b"
+   "en:beauty-advent-calendar:b"
   ]
  }
 }

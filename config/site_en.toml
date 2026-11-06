@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-03"
+updated = "2026-11-06"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -216,4 +216,38 @@ picks = [
 ]
 faq = [
   { q = "How often should I use a mask?", a = "Once a week is usually enough. Follow the stated time and rinse well." },
+]
+
+[[guide]]
+slug = "winter-body-scrub"
+date = "2026-11-06"
+icon = "🛁"
+title = "Body scrub in winter: how to choose one for soft skin without overdoing it"
+description = "Sugar scrubs, salt scrubs, exfoliating mitts or gentle formulas: what to look for to exfoliate gently in the cold season."
+intro = "In winter, body skin can look dull and feel rough under warm clothes. A gentle scrub followed by good moisturizing helps skin feel smoother, as long as you don't overdo it."
+sections = [
+  { h = "Main types", bullets = [
+      "Sugar scrub: grains that dissolve, fairly gentle, suits most skin.",
+      "Salt scrub: more intense; avoid on irritated skin or right after shaving.",
+      "Exfoliating mitt or sponge: affordable and reusable; wash and dry it well.",
+      "Fine-grain gentle formula: for sensitive skin.",
+  ] },
+  { h = "What to look for", bullets = [
+      "Grain size: the finer, the gentler.",
+      "A nourishing base (oils, butters) if your skin is dry.",
+      "Light or no fragrance if your skin is sensitive.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Once a week is usually enough, on wet skin, in small circles.",
+      "Avoid the face, irritated areas and freshly shaved skin.",
+      "Follow with a body lotion or cream.",
+  ] },
+]
+picks = [
+  { label = "Sugar body scrubs", why = "Gentle and suits most skin.", query = "sugar body scrub" },
+  { label = "Exfoliating mitts", why = "Reusable and affordable.", query = "exfoliating body mitt" },
+  { label = "Nourishing body lotions", why = "Essential after scrubbing.", query = "body lotion for dry skin" },
+]
+faq = [
+  { q = "How often should I scrub?", a = "Once a week suits most skin. If your skin turns red or feels tight, scrub less often." },
 ]

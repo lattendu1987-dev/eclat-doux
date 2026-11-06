@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-03"
+updated = "2026-11-06"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -210,4 +210,37 @@ picks = [
 ]
 faq = [
   { q = "Jak często robić maskę?", a = "Zwykle wystarczy raz w tygodniu. Przestrzegaj podanego czasu i dobrze spłucz." },
+]
+
+[[guide]]
+slug = "peeling-ciala-zima"
+icon = "🛁"
+title = "Peeling do ciała zimą: jak wybrać, by skóra była gładka bez podrażnień"
+description = "Peeling cukrowy, solny, rękawica złuszczająca czy delikatna formuła: na co zwrócić uwagę, by złuszczać skórę łagodnie w zimie."
+intro = "Zimą skóra ciała pod ciepłymi ubraniami może wyglądać na matową i być szorstka. Łagodny peeling i dobre nawilżenie pomagają odzyskać gładkość, jeśli nie przesadzisz."
+sections = [
+  { h = "Główne rodzaje", bullets = [
+      "Peeling cukrowy: drobinki się rozpuszczają, dość łagodny, pasuje do większości skór.",
+      "Peeling solny: mocniejszy; unikaj na podrażnionej skórze i tuż po goleniu.",
+      "Rękawica lub gąbka złuszczająca: tania i wielorazowa; dobrze ją myj i susz.",
+      "Delikatna formuła z drobnymi drobinkami: dla skóry wrażliwej.",
+  ] },
+  { h = "Na co zwrócić uwagę", bullets = [
+      "Wielkość drobinek: im drobniejsze, tym łagodniejszy peeling.",
+      "Odżywcza baza (olejki, masła), jeśli masz suchą skórę.",
+      "Delikatny zapach lub brak zapachu przy skórze wrażliwej.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Zwykle wystarczy raz w tygodniu, na mokrą skórę, okrężnymi ruchami.",
+      "Omijaj twarz, podrażnione miejsca i świeżo ogoloną skórę.",
+      "Potem nałóż balsam lub krem do ciała.",
+  ] },
+]
+picks = [
+  { label = "Peelingi cukrowe do ciała", why = "Łagodne, dla większości skór.", query = "sugar body scrub" },
+  { label = "Rękawice złuszczające", why = "Wielorazowe i tanie.", query = "exfoliating body mitt" },
+  { label = "Odżywcze balsamy do ciała", why = "Niezbędne po peelingu.", query = "body lotion dry skin" },
+]
+faq = [
+  { q = "Jak często robić peeling?", a = "Raz w tygodniu wystarcza większości skór. Jeśli skóra się czerwieni lub ściąga, rób go rzadziej." },
 ]
