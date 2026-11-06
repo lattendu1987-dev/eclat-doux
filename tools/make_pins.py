@@ -59,6 +59,8 @@ def main():
         out = ROOT / "static" / folder
         out.mkdir(parents=True, exist_ok=True)
         for g in load_toml(cfg)["guide"]:
+            if g.get("image_perso") and folder == "pins":
+                continue  # image fournie par le propriétaire
             title = g["title"].split(sep)[0].strip()
             size = 92 if len(title) < 40 else 80
             page = TEMPLATE.format(icon=g["icon"], title=html.escape(title), desc=html.escape(g["description"]),

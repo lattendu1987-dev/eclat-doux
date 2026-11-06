@@ -223,6 +223,8 @@ faq = [
 
 [[guide]]
 slug = "gommage-corps-hiver"
+# Image Pinterest personnalisée (fournie par le propriétaire) : ne pas régénérer.
+image_perso = true
 date = "2026-11-06"
 icon = "🛁"
 title = "Gommage corps en hiver : bien le choisir pour une peau douce sans l'agresser"
