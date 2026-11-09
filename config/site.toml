@@ -132,6 +132,8 @@ faq = [
 
 [[guide]]
 slug = "calendrier-avent-beaute"
+# Image(s) Pinterest personnalisée(s) : ne pas régénérer.
+image_perso = true
 icon = "🎄"
 title = "Calendrier de l'Avent beauté : comment choisir le bon"
 description = "Soins, maquillage ou mixte, format des produits, marques : notre checklist pour un calendrier qui vous ressemble."
@@ -160,6 +162,8 @@ faq = [
 
 [[guide]]
 slug = "coffret-cadeau-beaute-noel"
+# Image(s) Pinterest personnalisée(s) : ne pas régénérer.
+image_perso = true
 icon = "🎁"
 title = "Coffrets cadeaux beauté : idées pour Noël qui font vraiment plaisir"
 description = "Coffrets soins, parfum, bain, accessoires : comment choisir un cadeau beauté sans se tromper."
