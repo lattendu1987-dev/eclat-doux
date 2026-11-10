@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-06"
+updated = "2026-11-10"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -243,4 +243,37 @@ picks = [
 ]
 faq = [
   { q = "Jak często robić peeling?", a = "Raz w tygodniu wystarcza większości skór. Jeśli skóra się czerwieni lub ściąga, rób go rzadziej." },
+]
+
+[[guide]]
+slug = "suche-stopy-zima-pielegnacja"
+icon = "🦶"
+title = "Suche stopy zimą: jaką pielęgnację wybrać, by pięty były miękkie"
+description = "Krem do stóp, delikatna tarka, skarpetki nawilżające: na co zwrócić uwagę, gdy kozaki i ogrzewanie wysuszają stopy."
+intro = "Zimą stopy zamknięte w butach i suche powietrze w domu często sprawiają, że pięty stają się szorstkie. Prosta rutyna, kilka minut w tygodniu, zwykle wystarcza, by stopy znów były miękkie."
+sections = [
+  { h = "Przydatne kosmetyki", bullets = [
+      "Bogaty, dobrze wchłaniający się krem do stóp, nakładany wieczorem.",
+      "Delikatna tarka lub pumeks raz w tygodniu, na suchą skórę lub tuż po prysznicu.",
+      "Bawełniane lub nawilżające skarpetki na noc.",
+      "Letnia kąpiel stóp dla relaksu.",
+  ] },
+  { h = "Na co zwrócić uwagę", bullets = [
+      "Często poszukiwane składniki: mocznik, gliceryna, masło shea.",
+      "Konsystencja, która dobrze się wchłania, żeby się nie ślizgać.",
+      "Delikatna tarka zamiast ostrego narzędzia.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Pocieraj delikatnie, bez mocnego nacisku.",
+      "Dokładnie osuszaj przestrzenie między palcami po prysznicu.",
+      "Jeśli skóra pęka, krwawi lub boli, zapytaj farmaceutę lub podologa.",
+  ] },
+]
+picks = [
+  { label = "Kremy do bardzo suchych stóp", why = "Niezbędny wieczorny krok.", query = "urea foot cream" },
+  { label = "Delikatne tarki do stóp", why = "Raz w tygodniu wystarczy.", query = "gentle foot file" },
+  { label = "Skarpetki nawilżające", why = "Do pielęgnacji na noc.", query = "moisturizing socks" },
+]
+faq = [
+  { q = "Jak często używać tarki?", a = "Zwykle raz w tygodniu. Zbyt częste pocieranie może sprawić, że skóra stanie się grubsza i wrażliwsza." },
 ]

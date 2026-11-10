@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-06"
+updated = "2026-11-10"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -259,4 +259,38 @@ picks = [
 ]
 faq = [
   { q = "Combien de fois par semaine ?", a = "Une fois par semaine convient à la plupart des peaux. Si votre peau rougit ou tiraille, espacez davantage." },
+]
+
+[[guide]]
+slug = "soin-pieds-secs-hiver"
+date = "2026-11-10"
+icon = "🦶"
+title = "Pieds secs en hiver : les soins à choisir pour des talons tout doux"
+description = "Crème pieds, râpe douce, chaussettes hydratantes : les critères pour prendre soin de ses pieds quand bottes et chauffage les assèchent."
+intro = "En hiver, les pieds enfermés dans des bottes et l'air sec du chauffage rendent souvent les talons rêches. Une routine simple, quelques minutes par semaine, suffit souvent à retrouver des pieds plus doux."
+sections = [
+  { h = "Les soins utiles", bullets = [
+      "Une crème pour les pieds, riche et pénétrante, à appliquer le soir.",
+      "Une râpe ou une pierre ponce douce, une fois par semaine, sur peau sèche ou juste après la douche.",
+      "Des chaussettes en coton ou des chaussettes hydratantes pour la nuit.",
+      "Un bain de pieds tiède pour un moment de détente.",
+  ] },
+  { h = "Les critères qui comptent", bullets = [
+      "Des ingrédients souvent recherchés : urée, glycérine, beurre de karité.",
+      "Une texture qui pénètre bien, pour ne pas glisser en marchant.",
+      "Une râpe douce plutôt qu'un outil coupant.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Râpez doucement, sans insister ni aller jusqu'à la sensibilité.",
+      "Séchez bien entre les orteils après la douche.",
+      "Si la peau craque, saigne ou fait mal, demandez conseil à un pharmacien ou un podologue.",
+  ] },
+]
+picks = [
+  { label = "Crèmes pieds très secs", why = "Le soin du soir indispensable.", query = "crème pieds très secs urée" },
+  { label = "Râpes pieds douces", why = "Une fois par semaine suffit.", query = "râpe pieds douce" },
+  { label = "Chaussettes hydratantes", why = "Pour un soin de nuit.", query = "chaussettes hydratantes pieds" },
+]
+faq = [
+  { q = "Combien de fois râper ?", a = "Une fois par semaine en général. Râper trop souvent peut rendre la peau plus épaisse et sensible." },
 ]

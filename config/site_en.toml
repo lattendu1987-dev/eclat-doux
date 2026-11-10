@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-06"
+updated = "2026-11-10"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -250,4 +250,38 @@ picks = [
 ]
 faq = [
   { q = "How often should I scrub?", a = "Once a week suits most skin. If your skin turns red or feels tight, scrub less often." },
+]
+
+[[guide]]
+slug = "dry-feet-winter-care"
+date = "2026-11-10"
+icon = "🦶"
+title = "Dry feet in winter: the care to choose for soft heels"
+description = "Foot cream, gentle foot files, moisturizing socks: what to look for when boots and heating dry out your feet."
+intro = "In winter, feet shut in boots and dry indoor air often leave heels rough. A simple routine, a few minutes a week, is often enough to get softer feet back."
+sections = [
+  { h = "Useful products", bullets = [
+      "A rich, fast-absorbing foot cream, applied in the evening.",
+      "A gentle foot file or pumice stone, once a week, on dry skin or right after a shower.",
+      "Cotton or moisturizing socks for the night.",
+      "A lukewarm foot soak for a relaxing moment.",
+  ] },
+  { h = "What to look for", bullets = [
+      "Popular ingredients: urea, glycerin, shea butter.",
+      "A texture that absorbs well, so you don't slip when walking.",
+      "A gentle file rather than a cutting tool.",
+  ] },
+  { h = "Good habits", bullets = [
+      "File gently, without pressing or going until it feels tender.",
+      "Dry well between the toes after showering.",
+      "If skin cracks, bleeds or hurts, ask a pharmacist or podiatrist.",
+  ] },
+]
+picks = [
+  { label = "Creams for very dry feet", why = "The essential evening step.", query = "urea foot cream for dry cracked feet" },
+  { label = "Gentle foot files", why = "Once a week is enough.", query = "gentle foot file" },
+  { label = "Moisturizing socks", why = "For overnight care.", query = "moisturizing socks" },
+]
+faq = [
+  { q = "How often should I file?", a = "Usually once a week. Filing too often can make skin thicker and more sensitive." },
 ]

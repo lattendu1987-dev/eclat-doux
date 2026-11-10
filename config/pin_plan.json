@@ -31,20 +31,20 @@
    "en:beauty-advent-calendar:b"
   ],
   "2026-11-14": [
+   "fr:soin-pieds-secs-hiver:a",
    "fr:coffret-cadeau-beaute-noel:b",
    "fr:soin-cheveux-secs-hiver:b",
    "fr:gommage-corps-hiver:b",
+   "fr:soin-pieds-secs-hiver:b",
    "fr:baume-levres-gercees:c",
    "fr:creme-mains-seches:c",
-   "fr:creme-hydratante-visage-hiver:c",
-   "fr:humidificateur-air-chambre:c",
+   "en:dry-feet-winter-care:a",
    "en:beauty-gift-sets-christmas:b",
    "en:dry-hair-winter-care:b",
    "en:winter-body-scrub:b",
+   "en:dry-feet-winter-care:b",
    "en:lip-balm-chapped-lips:c",
-   "en:hand-cream-dry-hands:c",
-   "en:winter-face-moisturizer:c",
-   "en:bedroom-humidifier:c"
+   "en:hand-cream-dry-hands:c"
   ]
  }
 }
