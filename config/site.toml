@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-10"
+updated = "2026-11-13"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -293,4 +293,38 @@ picks = [
 ]
 faq = [
   { q = "Combien de fois râper ?", a = "Une fois par semaine en général. Râper trop souvent peut rendre la peau plus épaisse et sensible." },
+]
+
+[[guide]]
+slug = "demaquillant-doux-peau-hiver"
+date = "2026-11-13"
+icon = "🧼"
+title = "Démaquillant doux : bien le choisir quand la peau tiraille en hiver"
+description = "Huile, baume, lait ou eau micellaire : les critères pour se démaquiller sans assécher la peau pendant la saison froide."
+intro = "En hiver, un démaquillant trop décapant peut laisser la peau tendue. Choisir une texture douce et la bonne méthode aide à garder une peau confortable, matin et soir."
+sections = [
+  { h = "Les grandes textures", bullets = [
+      "Huile ou baume démaquillant : fond le maquillage, agréable sur peau sèche. Se rince à l'eau tiède.",
+      "Lait démaquillant : doux et confortable, à retirer au coton ou à l'eau.",
+      "Eau micellaire : pratique et rapide, à rincer si votre peau est sensible.",
+      "Gel nettoyant doux : en deuxième étape, pour les peaux mixtes.",
+  ] },
+  { h = "Les critères qui comptent", bullets = [
+      "Votre type de peau : sèche, mixte ou sensible.",
+      "Une formule sans parfum si votre peau réagit facilement.",
+      "Un produit adapté aux yeux si vous portez du mascara.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Massez doucement, sans frotter, puis rincez à l'eau tiède.",
+      "Préférez des carrés démaquillants réutilisables et doux.",
+      "Appliquez votre crème hydratante juste après, sur peau encore légèrement humide.",
+  ] },
+]
+picks = [
+  { label = "Huiles démaquillantes", why = "Douces pour les peaux sèches.", query = "huile démaquillante peau sèche" },
+  { label = "Laits démaquillants doux", why = "Confortables en hiver.", query = "lait démaquillant peau sensible" },
+  { label = "Carrés démaquillants lavables", why = "Doux et réutilisables.", query = "carrés démaquillants lavables" },
+]
+faq = [
+  { q = "Faut-il rincer l'eau micellaire ?", a = "Ce n'est pas toujours obligatoire, mais rincer est souvent plus confortable pour les peaux sensibles." },
 ]

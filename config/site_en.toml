@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-10"
+updated = "2026-11-13"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -284,4 +284,38 @@ picks = [
 ]
 faq = [
   { q = "How often should I file?", a = "Usually once a week. Filing too often can make skin thicker and more sensitive." },
+]
+
+[[guide]]
+slug = "gentle-makeup-remover-winter"
+date = "2026-11-13"
+icon = "🧼"
+title = "Gentle makeup remover: how to choose one when skin feels tight in winter"
+description = "Cleansing oil, balm, milk or micellar water: what to look for to remove makeup without drying your skin in the cold season."
+intro = "In winter, a harsh makeup remover can leave skin feeling tight. Choosing a gentle texture and the right method helps keep skin comfortable, morning and night."
+sections = [
+  { h = "Main textures", bullets = [
+      "Cleansing oil or balm: melts makeup, pleasant on dry skin. Rinses off with lukewarm water.",
+      "Cleansing milk: soft and comfortable, removed with a pad or water.",
+      "Micellar water: quick and handy; rinse it off if your skin is sensitive.",
+      "Gentle gel cleanser: as a second step for combination skin.",
+  ] },
+  { h = "What to look for", bullets = [
+      "Your skin type: dry, combination or sensitive.",
+      "A fragrance-free formula if your skin reacts easily.",
+      "An eye-safe product if you wear mascara.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Massage gently, without rubbing, then rinse with lukewarm water.",
+      "Use soft, reusable cleansing pads.",
+      "Apply moisturizer right after, on slightly damp skin.",
+  ] },
+]
+picks = [
+  { label = "Cleansing oils", why = "Gentle on dry skin.", query = "cleansing oil for dry skin" },
+  { label = "Gentle cleansing milks", why = "Comfortable in winter.", query = "cleansing milk sensitive skin" },
+  { label = "Reusable makeup remover pads", why = "Soft and washable.", query = "reusable makeup remover pads" },
+]
+faq = [
+  { q = "Do I need to rinse off micellar water?", a = "It isn't always required, but rinsing is often more comfortable for sensitive skin." },
 ]

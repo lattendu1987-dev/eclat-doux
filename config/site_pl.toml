@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-10"
+updated = "2026-11-13"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -276,4 +276,37 @@ picks = [
 ]
 faq = [
   { q = "Jak często używać tarki?", a = "Zwykle raz w tygodniu. Zbyt częste pocieranie może sprawić, że skóra stanie się grubsza i wrażliwsza." },
+]
+
+[[guide]]
+slug = "lagodny-demakijaz-zima"
+icon = "🧼"
+title = "Łagodny płyn do demakijażu: jak wybrać, gdy zimą skóra jest ściągnięta"
+description = "Olejek, balsam, mleczko czy płyn micelarny: na co zwrócić uwagę, by zmywać makijaż bez wysuszania skóry zimą."
+intro = "Zimą zbyt mocny płyn do demakijażu może pozostawić ściągniętą skórę. Łagodna konsystencja i dobra metoda pomagają zachować komfort skóry rano i wieczorem."
+sections = [
+  { h = "Główne konsystencje", bullets = [
+      "Olejek lub balsam: rozpuszcza makijaż, przyjemny dla suchej skóry. Spłukuje się letnią wodą.",
+      "Mleczko: delikatne i komfortowe, zmywane wacikiem lub wodą.",
+      "Płyn micelarny: szybki i wygodny; przy skórze wrażliwej spłucz go.",
+      "Łagodny żel: jako drugi krok dla skóry mieszanej.",
+  ] },
+  { h = "Na co zwrócić uwagę", bullets = [
+      "Twój typ skóry: sucha, mieszana czy wrażliwa.",
+      "Formuła bez zapachu, jeśli skóra łatwo reaguje.",
+      "Produkt odpowiedni do oczu, jeśli nosisz tusz do rzęs.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Masuj delikatnie, bez tarcia, a potem spłucz letnią wodą.",
+      "Używaj miękkich płatków wielorazowych.",
+      "Od razu nałóż krem nawilżający na lekko wilgotną skórę.",
+  ] },
+]
+picks = [
+  { label = "Olejki do demakijażu", why = "Łagodne dla suchej skóry.", query = "cleansing oil dry skin" },
+  { label = "Delikatne mleczka", why = "Komfortowe zimą.", query = "cleansing milk sensitive skin" },
+  { label = "Płatki wielorazowe", why = "Miękkie i do prania.", query = "reusable makeup remover pads" },
+]
+faq = [
+  { q = "Czy trzeba spłukiwać płyn micelarny?", a = "Nie zawsze jest to konieczne, ale spłukanie jest często wygodniejsze dla skóry wrażliwej." },
 ]
