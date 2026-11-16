@@ -148,3 +148,15 @@ class PinPlanTest(unittest.TestCase):
             _, nxt = pinplan.week_plan(guides, date(2026, 11, 8))
             first = {(g["slug"], v) for _, g, v, _ in items}
             self.assertFalse(first & {(g["slug"], v) for _, g, v, _ in nxt})
+
+
+
+class BlackFridayTest(unittest.TestCase):
+    def test_pages(self):
+        out = build(Path(tempfile.mkdtemp()) / "public")
+        fr = (out / "black-friday.html").read_text(encoding="utf-8")
+        en = (out / "en" / "black-friday.html").read_text(encoding="utf-8")
+        self.assertIn("amazon.fr/deals?tag=pattesauchaud-21", fr)
+        self.assertIn("amazon.com/deals?tag=warmpaws-20", en)
+        self.assertIn('rel="sponsored nofollow noopener"', fr)
+        self.assertIn("black-friday.html", (out / "sitemap.xml").read_text(encoding="utf-8"))
