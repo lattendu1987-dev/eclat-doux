@@ -3,6 +3,11 @@
 affid = "3138840"
 
 [[program]]
+name = "AliExpress FR"
+mid = "26009"
+regions = ["FR"]
+
+[[program]]
 name = "AliExpress UK"
 mid = "7035"
 regions = ["GB"]
