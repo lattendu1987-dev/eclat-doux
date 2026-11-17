@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-13"
+updated = "2026-11-17"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -309,4 +309,37 @@ picks = [
 ]
 faq = [
   { q = "Czy trzeba spłukiwać płyn micelarny?", a = "Nie zawsze jest to konieczne, ale spłukanie jest często wygodniejsze dla skóry wrażliwej." },
+]
+
+[[guide]]
+slug = "maska-nawilzajaca-do-twarzy-zima"
+icon = "🧖"
+title = "Maska nawilżająca do twarzy: jak wybrać na zimowy rytuał relaksu"
+description = "Maska w płachcie, kremowa, żelowa czy na noc: na co zwrócić uwagę, by wybrać maskę dopasowaną do skóry zimą."
+intro = "Zimą maska nawilżająca to mały rytuał, który wiele osób lubi dla komfortu skóry i chwili relaksu. Jest kilka konsystencji: oto jak wybrać według typu skóry i planu dnia."
+sections = [
+  { h = "Główne rodzaje", bullets = [
+      "Maska w płachcie: szybka i wygodna, idealna na chwilę relaksu.",
+      "Maska kremowa: bogata i komfortowa, dla skóry suchej.",
+      "Maska żelowa: świeża i lekka, lubiana przez skórę mieszaną.",
+      "Maska na noc: nakładana na koniec wieczornej pielęgnacji, spłukiwana rano.",
+  ] },
+  { h = "Na co zwrócić uwagę", bullets = [
+      "Twój typ skóry: sucha, mieszana czy wrażliwa.",
+      "Często poszukiwane składniki: kwas hialuronowy, gliceryna, ceramidy.",
+      "Formuła bez zapachu przy skórze wrażliwej.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Nakładaj na czystą skórę raz lub dwa razy w tygodniu.",
+      "Przestrzegaj podanego czasu.",
+      "Nową maskę najpierw przetestuj na małym fragmencie skóry.",
+  ] },
+]
+picks = [
+  { label = "Nawilżające maski w płachcie", why = "Szybkie i wygodne.", query = "hydrating sheet mask" },
+  { label = "Maski kremowe do skóry suchej", why = "Bogate i komfortowe.", query = "hydrating cream face mask" },
+  { label = "Maski na noc", why = "Pielęgnacja podczas snu.", query = "overnight face mask" },
+]
+faq = [
+  { q = "Jak często stosować maskę?", a = "Raz lub dwa razy w tygodniu wystarcza większości skór. Stosuj się do wskazówek produktu." },
 ]

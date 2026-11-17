@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-13"
+updated = "2026-11-17"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -327,4 +327,38 @@ picks = [
 ]
 faq = [
   { q = "Faut-il rincer l'eau micellaire ?", a = "Ce n'est pas toujours obligatoire, mais rincer est souvent plus confortable pour les peaux sensibles." },
+]
+
+[[guide]]
+slug = "masque-visage-hydratant-hiver"
+date = "2026-11-17"
+icon = "🧖"
+title = "Masque visage hydratant : bien le choisir pour un moment cocooning en hiver"
+description = "Masque en tissu, crème, gel ou de nuit : les critères pour choisir un masque adapté à votre peau quand il fait froid."
+intro = "En hiver, un masque hydratant est un petit rituel apprécié pour une peau plus confortable et un moment de détente. Il en existe plusieurs textures : voici comment choisir selon votre peau et votre emploi du temps."
+sections = [
+  { h = "Les grands types", bullets = [
+      "Masque en tissu : pratique et rapide, idéal pour un moment détente.",
+      "Masque crème : riche et confortable, adapté aux peaux sèches.",
+      "Masque gel : frais et léger, apprécié des peaux mixtes.",
+      "Masque de nuit : s'applique en dernière étape du soir et se rince le matin.",
+  ] },
+  { h = "Les critères qui comptent", bullets = [
+      "Votre type de peau : sèche, mixte ou sensible.",
+      "Des ingrédients souvent recherchés : acide hyaluronique, glycérine, céramides.",
+      "Une formule sans parfum si votre peau est sensible.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Appliquez sur une peau propre, une à deux fois par semaine.",
+      "Respectez le temps de pose indiqué.",
+      "Testez un nouveau masque sur une petite zone avant la première utilisation.",
+  ] },
+]
+picks = [
+  { label = "Masques en tissu hydratants", why = "Rapides et pratiques.", query = "masque tissu hydratant visage" },
+  { label = "Masques crème peau sèche", why = "Riches et confortables.", query = "masque visage hydratant peau sèche" },
+  { label = "Masques de nuit", why = "Un soin pendant le sommeil.", query = "masque de nuit visage hydratant" },
+]
+faq = [
+  { q = "Combien de fois par semaine ?", a = "Une à deux fois par semaine convient à la plupart des peaux. Suivez les indications du produit." },
 ]

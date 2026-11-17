@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-13"
+updated = "2026-11-17"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -318,4 +318,38 @@ picks = [
 ]
 faq = [
   { q = "Do I need to rinse off micellar water?", a = "It isn't always required, but rinsing is often more comfortable for sensitive skin." },
+]
+
+[[guide]]
+slug = "hydrating-face-mask-winter"
+date = "2026-11-17"
+icon = "🧖"
+title = "Hydrating face mask: how to choose one for a cozy winter ritual"
+description = "Sheet, cream, gel or overnight masks: what to look for to pick a mask that suits your skin in the cold season."
+intro = "In winter, a hydrating mask is a little ritual many people enjoy for more comfortable skin and a relaxing moment. There are several textures: here's how to choose based on your skin and your schedule."
+sections = [
+  { h = "Main types", bullets = [
+      "Sheet mask: quick and handy, ideal for a relaxing break.",
+      "Cream mask: rich and comfortable, suits dry skin.",
+      "Gel mask: fresh and light, popular with combination skin.",
+      "Overnight mask: applied as the last evening step and rinsed in the morning.",
+  ] },
+  { h = "What to look for", bullets = [
+      "Your skin type: dry, combination or sensitive.",
+      "Popular ingredients: hyaluronic acid, glycerin, ceramides.",
+      "A fragrance-free formula if your skin is sensitive.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Apply on clean skin, once or twice a week.",
+      "Follow the stated time.",
+      "Patch-test a new mask on a small area first.",
+  ] },
+]
+picks = [
+  { label = "Hydrating sheet masks", why = "Quick and handy.", query = "hydrating sheet mask" },
+  { label = "Cream masks for dry skin", why = "Rich and comfortable.", query = "hydrating cream face mask dry skin" },
+  { label = "Overnight masks", why = "Care while you sleep.", query = "overnight hydrating face mask" },
+]
+faq = [
+  { q = "How often should I use one?", a = "Once or twice a week suits most skin. Follow the product's directions." },
 ]
