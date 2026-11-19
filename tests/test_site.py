@@ -160,3 +160,14 @@ class BlackFridayTest(unittest.TestCase):
         self.assertIn("amazon.com/deals?tag=warmpaws-20", en)
         self.assertIn('rel="sponsored nofollow noopener"', fr)
         self.assertIn("black-friday.html", (out / "sitemap.xml").read_text(encoding="utf-8"))
+
+
+class PromoCodesTest(unittest.TestCase):
+    def test_promo_codes(self):
+        out = build(Path(tempfile.mkdtemp()) / "public")
+        fr = (out / "black-friday.html").read_text(encoding="utf-8")
+        en = (out / "en" / "black-friday.html").read_text(encoding="utf-8")
+        self.assertIn("11FRBF23", fr)
+        self.assertIn("awinmid=26009&amp;awinaffid=3138840", fr)
+        self.assertIn("AEUKBF15", en)
+        self.assertIn("awinmid=7035", en)

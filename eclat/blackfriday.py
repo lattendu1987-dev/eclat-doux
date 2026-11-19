@@ -45,6 +45,26 @@ def deals_url(store: dict) -> str:
     return f"{u}?tag={quote_plus(store['tag'])}" if store.get("tag") else u
 
 
+def codes_html(lang: str) -> str:
+    """Codes promo AliExpress (config/promo_codes.toml), avec lien suivi Awin vers la page de la campagne."""
+    from urllib.parse import quote
+    if not (config.CONFIG_DIR / "promo_codes.toml").exists():
+        return ""
+    data = config.load_toml("promo_codes.toml")
+    c = data.get(lang)
+    if not c:
+        return ""
+    url = f"https://www.awin1.com/cread.php?awinmid={c['mid']}&awinaffid={data['affid']}&ued={quote(c['landing'], safe='')}"
+    h = "Codes promo" if lang == "fr" else "Promo codes"
+    btn = "Voir les offres" if lang == "fr" else "See the deals on"
+    sep = " : " if lang == "fr" else ": "
+    rows = "".join(f'<li><strong>{e(code)}</strong>{sep}{e(txt)}</li>' for code, txt in c["codes"])
+    periods = "".join(f"<li>{e(x)}</li>" for x in c["periods"])
+    return (f'<section class="block reveal"><h2>{e(h)} {e(c["store"])}</h2><ul>{periods}</ul><ul class="checks">{rows}</ul>'
+            f'<p class="muted small">{e(c["note"])}</p>'
+            f'<p><a class="btn btn-small" href="{e(url)}" rel="sponsored nofollow noopener" target="_blank">{e(btn)} {e(c["store"])}</a></p></section>')
+
+
 def body(lang: str, first: str, guides: list[dict]) -> str:
     t = TEXT[lang]
     stores = sorted(config.load_toml("bestsellers.toml")["store"], key=lambda s: s["domain"] != first)
@@ -58,6 +78,7 @@ def body(lang: str, first: str, guides: list[dict]) -> str:
     return f"""<article class="guide">
 <header class="guide-head reveal"><p class="eyebrow">{e(t['eyebrow'])}</p><h1>{e(t['title'])}</h1><p class="lead">{e(t['lead'])}</p></header>
 <section class="block reveal"><h2>{e(t['h_tips'])}</h2><ul class="checks">{tips}</ul></section>
+{codes_html(lang)}
 <h2 class="reveal">{e(t['h_deals'])}</h2>
 {cards}
 <section class="block reveal"><h2>{e(t['h_guides'])}</h2><ul>{links}</ul></section>

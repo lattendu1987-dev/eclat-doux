@@ -1,0 +1,36 @@
+# Codes promo AliExpress transmis par Awin (Black Friday / Cyber Monday 2026).
+# Affichés sur la page black-friday.html, avec un lien suivi vers la page officielle de la campagne.
+affid = "3138840"
+
+[fr]
+mid = "26009"
+store = "AliExpress France"
+landing = "https://www.aliexpress.com/ssr/300003465/glo-main-venue-iw8izh?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&businessCode=guide"
+periods = ["Black Friday : du 19 au 29 novembre (23 h 59)", "Cyber Monday : du 30 novembre au 3 décembre (23 h 59)"]
+note = "Valables sur les articles sélectionnés par AliExpress, un code par commande, non cumulables avec d'autres promotions."
+codes = [
+  ["11FRBF03", "3 € de remise dès 18 € d'achat"],
+  ["11FRBF06", "6 € de remise dès 46 € d'achat"],
+  ["11FRBF13", "13 € de remise dès 79 € d'achat"],
+  ["11FRBF23", "23 € de remise dès 149 € d'achat"],
+  ["11FRBF40", "40 € de remise dès 235 € d'achat"],
+  ["11FRBF60", "60 € de remise dès 350 € d'achat"],
+  ["11FRBF76", "76 € de remise dès 469 € d'achat"],
+]
+
+[en]
+mid = "7035"
+store = "AliExpress UK"
+landing = "https://www.aliexpress.com/ssr/300003465/gb-main-venue?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&businessCode=guide"
+periods = ["Black Friday: November 18 to December 3", "Cyber Monday: November 29 to December 3"]
+note = "For UK shoppers. Valid on selected items, one code per order, not combinable with other promotions."
+codes = [
+  ["AEUKBFX3", "$3 off orders over $16"],
+  ["AEUKBFX8", "$8 off orders over $50"],
+  ["AEUKBF15", "$15 off orders over $90"],
+  ["AEUKBF30", "$30 off orders over $185"],
+  ["AEUKBF40", "$40 off orders over $270"],
+  ["AEUKBF53", "$53 off orders over $320"],
+  ["AEUKBF69", "$69 off orders over $420"],
+  ["AEUKBF85", "$85 off orders over $500"],
+]
