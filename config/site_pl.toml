@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-17"
+updated = "2026-11-20"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -342,4 +342,37 @@ picks = [
 ]
 faq = [
   { q = "Jak często stosować maskę?", a = "Raz lub dwa razy w tygodniu wystarcza większości skór. Stosuj się do wskazówek produktu." },
+]
+
+[[guide]]
+slug = "satynowe-akcesoria-do-wlosow-zima"
+icon = "🎀"
+title = "Satynowe akcesoria: jak chronić włosy w nocy i pod czapką zimą"
+description = "Poszewka, czepek do spania, gumki: na co zwrócić uwagę przy wyborze akcesoriów z satyny lub jedwabiu, które ograniczają tarcie i puszenie."
+intro = "Zimą czapka, szaliki i suche powietrze często sprawiają, że włosy się elektryzują i plączą. Akcesoria z satyny lub jedwabiu ślizgają się lepiej niż bawełna i ograniczają tarcie w nocy i w ciągu dnia."
+sections = [
+  { h = "Przydatne akcesoria", bullets = [
+      "Poszewka z satyny lub jedwabiu: mniej tarcia w nocy.",
+      "Satynowy czepek do spania: wygodny przy długich lub kręconych włosach.",
+      "Satynowe gumki: trzymają włosy bez zagnieceń i łamania.",
+      "Zimowa czapka z satynową podszewką: ciepło bez elektryzowania.",
+  ] },
+  { h = "Satyna czy jedwab?", bullets = [
+      "Satyna to zwykle poliester: przystępna cenowo i łatwa w praniu.",
+      "Jedwab (morwowy) to naturalne włókno, delikatniejsze, ale droższe i wymagające.",
+      "Sprawdź metkę: „satyna” to splot, a nie materiał.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Pierz poszewki w niskiej temperaturze, na lewej stronie, w siateczce.",
+      "Unikaj płynu zmiękczającego, który może zniszczyć jedwab.",
+      "Na noc zaplataj długie włosy w luźny warkocz.",
+  ] },
+]
+picks = [
+  { label = "Satynowe poszewki", why = "Mniej tarcia w nocy.", query = "satin pillowcase hair" },
+  { label = "Satynowe czepki do spania", why = "Do długich lub kręconych włosów.", query = "satin sleep bonnet" },
+  { label = "Satynowe gumki", why = "Trzymają bez zagnieceń.", query = "satin scrunchies" },
+]
+faq = [
+  { q = "Czy musi to być jedwab?", a = "Nie. Satyna z poliestru to przystępna i łatwa w pielęgnacji alternatywa dla większości osób." },
 ]

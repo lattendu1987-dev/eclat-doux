@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-17"
+updated = "2026-11-20"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -352,4 +352,38 @@ picks = [
 ]
 faq = [
   { q = "How often should I use one?", a = "Once or twice a week suits most skin. Follow the product's directions." },
+]
+
+[[guide]]
+slug = "satin-hair-accessories-winter"
+date = "2026-11-20"
+icon = "🎀"
+title = "Satin accessories: protecting your hair at night and under hats in winter"
+description = "Pillowcases, sleep bonnets, scrunchies: what to look for in satin or silk accessories that reduce friction and frizz."
+intro = "In winter, hats, scarves and dry air often leave hair staticky and tangled. Satin or silk accessories glide more than cotton and reduce friction, at night and during the day."
+sections = [
+  { h = "Useful accessories", bullets = [
+      "Satin or silk pillowcase: less friction overnight.",
+      "Satin sleep bonnet: handy for long, curly or coily hair.",
+      "Satin scrunchies: hold hair without dents or breakage.",
+      "Satin-lined winter beanie: stay warm without static.",
+  ] },
+  { h = "Satin or silk?", bullets = [
+      "Satin is usually polyester: affordable and easy to wash.",
+      "Silk (mulberry) is a natural fiber, softer but pricier and more delicate.",
+      "Check the label: \"satin\" is a weave, not a material.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Wash pillowcases on a low temperature, inside out, in a mesh bag.",
+      "Skip fabric softener, which can damage silk.",
+      "Tie long hair in a loose braid at night.",
+  ] },
+]
+picks = [
+  { label = "Satin pillowcases", why = "Less friction overnight.", query = "satin pillowcase for hair" },
+  { label = "Satin sleep bonnets", why = "For long or curly hair.", query = "satin sleep bonnet" },
+  { label = "Satin scrunchies", why = "Hold without dents.", query = "satin scrunchies" },
+]
+faq = [
+  { q = "Do I need real silk?", a = "No. Polyester satin is an affordable, easy-care alternative for most people." },
 ]

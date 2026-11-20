@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-17"
+updated = "2026-11-20"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -361,4 +361,38 @@ picks = [
 ]
 faq = [
   { q = "Combien de fois par semaine ?", a = "Une à deux fois par semaine convient à la plupart des peaux. Suivez les indications du produit." },
+]
+
+[[guide]]
+slug = "accessoires-coiffure-satin-hiver"
+date = "2026-11-20"
+icon = "🎀"
+title = "Accessoires en satin : protéger ses cheveux la nuit et sous le bonnet en hiver"
+description = "Taie d'oreiller, bonnet de nuit, chouchous : les critères pour choisir des accessoires en satin ou en soie qui limitent frottements et frisottis."
+intro = "En hiver, le bonnet, les écharpes et l'air sec rendent souvent les cheveux électriques et emmêlés. Les accessoires en satin ou en soie glissent mieux que le coton et limitent les frottements, la nuit comme dans la journée."
+sections = [
+  { h = "Les accessoires utiles", bullets = [
+      "Taie d'oreiller en satin ou en soie : moins de frottements pendant la nuit.",
+      "Bonnet de nuit en satin : pratique pour les cheveux longs, bouclés ou frisés.",
+      "Chouchous en satin : tiennent les cheveux sans les marquer ni les casser.",
+      "Bonnet d'hiver doublé satin : pour sortir au chaud sans électricité statique.",
+  ] },
+  { h = "Satin ou soie ?", bullets = [
+      "Le satin est généralement en polyester : abordable et facile à laver.",
+      "La soie (mûrier) est une fibre naturelle, plus douce mais plus chère et plus délicate à entretenir.",
+      "Vérifiez l'étiquette : « satin » désigne le tissage, pas la matière.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Lavez les taies à basse température, à l'envers, dans un filet.",
+      "Évitez l'adoucissant, qui peut abîmer la soie.",
+      "Attachez les cheveux longs en tresse lâche la nuit.",
+  ] },
+]
+picks = [
+  { label = "Taies d'oreiller en satin", why = "Moins de frottements la nuit.", query = "taie oreiller satin cheveux" },
+  { label = "Bonnets de nuit en satin", why = "Pour les cheveux longs ou bouclés.", query = "bonnet de nuit satin cheveux" },
+  { label = "Chouchous en satin", why = "Tiennent sans marquer.", query = "chouchou satin cheveux" },
+]
+faq = [
+  { q = "Faut-il forcément de la soie ?", a = "Non. Le satin de polyester est une alternative abordable et facile à entretenir pour la plupart des personnes." },
 ]
