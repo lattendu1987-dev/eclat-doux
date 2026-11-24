@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-20"
+updated = "2026-11-24"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -375,4 +375,37 @@ picks = [
 ]
 faq = [
   { q = "Czy musi to być jedwab?", a = "Nie. Satyna z poliestru to przystępna i łatwa w pielęgnacji alternatywa dla większości osób." },
+]
+
+[[guide]]
+slug = "makijaz-na-swieta-promienna-cera"
+icon = "✨"
+title = "Makijaż na święta: kosmetyki do promiennego looku, który przetrwa cały wieczór"
+description = "Baza, rozświetlacz, trwała szminka, spray utrwalający: na co zwrócić uwagę przy wyborze makijażu na sylwestra i święta."
+intro = "Na świąteczne kolacje i sylwestra chcemy makijażu, który rozświetla i trzyma się od kolacji do północy. Wystarczy kilka dobrze dobranych kosmetyków, bez kupowania wszystkiego od nowa."
+sections = [
+  { h = "Najważniejsze kosmetyki", bullets = [
+      "Nawilżająca lub wygładzająca baza, zwłaszcza gdy skóra jest zimą ściągnięta.",
+      "Rozświetlacz (w kremie lub pudrze) na szczyty kości policzkowych.",
+      "Trwała szminka lub konturówka w tym samym odcieniu, żeby kolor się nie rozmazywał.",
+      "Spray utrwalający, który pomaga makijażowi dłużej się trzymać.",
+  ] },
+  { h = "Na co zwrócić uwagę", bullets = [
+      "Odcienie dopasowane do karnacji: proś o próbki, gdy to możliwe.",
+      "Kremowe konsystencje dla skóry suchej, pudrowe dla mieszanej.",
+      "Kompaktowa, uniwersalna paleta zamiast wielu pojedynczych kosmetyków.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Dobrze nawilż skórę przed makijażem.",
+      "Miej szminkę i małe lusterko w torebce do poprawek.",
+      "Delikatnie zmyj makijaż na koniec wieczoru, nawet późno.",
+  ] },
+]
+picks = [
+  { label = "Rozświetlacze", why = "Dla promiennego efektu.", query = "face highlighter" },
+  { label = "Trwałe szminki", why = "Przetrwają kolację.", query = "long wear lipstick" },
+  { label = "Spraye utrwalające", why = "Dla lepszej trwałości.", query = "makeup setting spray" },
+]
+faq = [
+  { q = "Jak sprawić, by szminka przetrwała kolację?", a = "Najpierw obrysuj usta konturówką, nałóż jedną warstwę, odciśnij chusteczką i nałóż drugą." },
 ]

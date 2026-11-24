@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-20"
+updated = "2026-11-24"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -386,4 +386,38 @@ picks = [
 ]
 faq = [
   { q = "Do I need real silk?", a = "No. Polyester satin is an affordable, easy-care alternative for most people." },
+]
+
+[[guide]]
+slug = "holiday-party-makeup-glow"
+date = "2026-11-24"
+icon = "✨"
+title = "Holiday party makeup: the products for a glowy look that lasts all night"
+description = "Primer, highlighter, long-wear lipstick, setting spray: what to look for to pick party makeup that works."
+intro = "For holiday dinners and New Year's Eve, you want makeup that glows and lasts from dinner to midnight. A few well-chosen products are enough, no need to replace everything."
+sections = [
+  { h = "Key products", bullets = [
+      "A hydrating or smoothing primer, especially if skin feels tight in winter.",
+      "A highlighter (cream or powder) on the tops of the cheekbones for glow.",
+      "A long-wear lipstick, or a matching lip liner so it doesn't bleed.",
+      "A setting spray to help makeup last longer.",
+  ] },
+  { h = "What to look for", bullets = [
+      "Shades that suit your skin tone: ask for samples when you can.",
+      "Cream textures for dry skin, powders for combination skin.",
+      "A compact, versatile palette rather than lots of single products.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Moisturize well before applying makeup.",
+      "Keep your lipstick and a small mirror in your bag for touch-ups.",
+      "Remove makeup gently at the end of the night, even when it's late.",
+  ] },
+]
+picks = [
+  { label = "Highlighters", why = "For a glowy finish.", query = "face highlighter" },
+  { label = "Long-wear lipsticks", why = "Last through dinner.", query = "long wear lipstick" },
+  { label = "Makeup setting sprays", why = "For better staying power.", query = "makeup setting spray" },
+]
+faq = [
+  { q = "How do I keep lipstick on through dinner?", a = "Line your lips first, apply one coat, blot with a tissue, then add a second coat." },
 ]

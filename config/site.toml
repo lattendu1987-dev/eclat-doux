@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-20"
+updated = "2026-11-24"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -395,4 +395,38 @@ picks = [
 ]
 faq = [
   { q = "Faut-il forcément de la soie ?", a = "Non. Le satin de polyester est une alternative abordable et facile à entretenir pour la plupart des personnes." },
+]
+
+[[guide]]
+slug = "maquillage-fetes-teint-lumineux"
+date = "2026-11-24"
+icon = "✨"
+title = "Maquillage des fêtes : les produits pour un look lumineux qui tient toute la soirée"
+description = "Base, enlumineur, rouge à lèvres longue tenue, spray fixateur : les critères pour choisir son maquillage de réveillon sans se tromper."
+intro = "Pour les repas de fêtes et le réveillon, on veut un maquillage qui illumine et qui tient du dîner jusqu'à minuit. Quelques produits bien choisis suffisent, sans tout racheter."
+sections = [
+  { h = "Les produits clés", bullets = [
+      "Une base hydratante ou lissante, surtout si la peau tiraille en hiver.",
+      "Un enlumineur (crème ou poudre) sur le haut des pommettes pour un effet lumineux.",
+      "Un rouge à lèvres longue tenue, ou un crayon contour assorti pour qu'il ne file pas.",
+      "Un spray fixateur pour aider le maquillage à tenir plus longtemps.",
+  ] },
+  { h = "Les critères qui comptent", bullets = [
+      "Des teintes adaptées à votre carnation : demandez des échantillons quand c'est possible.",
+      "Des textures crème pour les peaux sèches, poudre pour les peaux mixtes.",
+      "Une palette compacte et polyvalente plutôt que de nombreux produits isolés.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Hydratez bien la peau avant de vous maquiller.",
+      "Glissez le rouge à lèvres et un petit miroir dans votre sac pour les retouches.",
+      "Démaquillez-vous en douceur en fin de soirée, même tard.",
+  ] },
+]
+picks = [
+  { label = "Enlumineurs", why = "Pour un effet lumineux.", query = "enlumineur visage" },
+  { label = "Rouges à lèvres longue tenue", why = "Tiennent tout le repas.", query = "rouge à lèvres longue tenue" },
+  { label = "Sprays fixateurs de maquillage", why = "Pour une meilleure tenue.", query = "spray fixateur maquillage" },
+]
+faq = [
+  { q = "Comment faire tenir le rouge à lèvres pendant le repas ?", a = "Tracez d'abord le contour au crayon, appliquez une couche, tamponnez avec un mouchoir puis remettez une seconde couche." },
 ]
