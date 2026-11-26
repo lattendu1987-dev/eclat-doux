@@ -22,15 +22,29 @@ codes = [
 mid = "7035"
 store = "AliExpress UK"
 landing = "https://www.aliexpress.com/ssr/300003465/gb-main-venue?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&businessCode=guide"
-periods = ["Black Friday: November 18 to December 3", "Cyber Monday: November 29 to December 3"]
-note = "For UK shoppers. Valid on selected items, one code per order, not combinable with other promotions."
+periods = ["Valid until December 4, 2026"]
+note = "For UK shoppers. One code per order, not combinable with other promotions. Full terms on AliExpress."
 codes = [
-  ["AEUKBFX3", "$3 off orders over $16"],
-  ["AEUKBFX8", "$8 off orders over $50"],
-  ["AEUKBF15", "$15 off orders over $90"],
-  ["AEUKBF30", "$30 off orders over $185"],
-  ["AEUKBF40", "$40 off orders over $270"],
-  ["AEUKBF53", "$53 off orders over $320"],
-  ["AEUKBF69", "$69 off orders over $420"],
-  ["AEUKBF85", "$85 off orders over $500"],
+  ["IFPLVGIQ", "£5 off orders over £30"],
+  ["IFPDX2DG", "£10 off orders over £60"],
+  ["IFPGYD5I", "£18 off orders over £112"],
+  ["IFPAXRIJ", "£30 off orders over £180"],
+  ["IFPHELC3", "£40 off orders over £260"],
+  ["IFPLU83S", "£55 off orders over £360"],
+]
+
+[pl]
+mid = "12044"
+store = "AliExpress PL"
+landing = "https://www.aliexpress.com/ssr/300003465/glo-main-venue-iw8izh?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&businessCode=guide"
+periods = ["Black Friday: do 29 listopada (23:59)", "Cyber Monday: od 30 listopada do 3 grudnia (23:59)"]
+note = "Kody dla zamówień w Polsce, jeden kod na zamówienie, nie łączą się z innymi promocjami."
+codes = [
+  ["PLBF03", "12 PLN zniżki od 72 PLN"],
+  ["PLBF06", "25 PLN zniżki od 167 PLN"],
+  ["PLBF15", "62 PLN zniżki od 350 PLN"],
+  ["PLBF24", "100 PLN zniżki od 620 PLN"],
+  ["PLBF37", "155 PLN zniżki od 1000 PLN"],
+  ["PLBF54", "225 PLN zniżki od 1450 PLN"],
+  ["PLBF75", "310 PLN zniżki od 1990 PLN"],
 ]

@@ -52,7 +52,7 @@ def page(site: dict, title: str, description: str, body: str, path: str) -> str:
 <a class="skip" href="#content">Przejdź do treści</a>
 <header class="top">
   <a class="brand" href="./"><span aria-hidden="true">🌸</span> {e(site['name'])}</a>
-  <nav aria-label="Menu"><a href="./#guides">Poradniki</a><a href="o-nas.html">O nas</a><a href="../">FR</a><a href="../en/">EN</a></nav>
+  <nav aria-label="Menu"><a href="./#guides">Poradniki</a><a href="black-friday.html">Black Friday</a><a href="o-nas.html">O nas</a><a href="../">FR</a><a href="../en/">EN</a></nav>
 </header>
 <div class="disclosure" role="note">{e(DISCLOSURE)} <a href="ujawnienie.html">Więcej</a></div>
 <main id="content">
@@ -166,5 +166,12 @@ def build(out_dir: Path) -> list[str]:
         (out_dir / name).write_text(page(site, g["title"], g["description"], guide_body(site, g), name), encoding="utf-8")
     for name, (title, desc, body) in STATIC_PAGES.items():
         (out_dir / name).write_text(page(site, title, desc, body, name), encoding="utf-8")
+    from .blackfriday import codes_html
+    links = "".join(f'<li><a href="{e(g["slug"])}.html">{e(g["icon"])} {e(g["title"])}</a></li>' for g in reversed(guides))
+    bf = (f'<article class="guide"><header class="guide-head reveal"><p class="eyebrow">🖤 Black Friday · Cyber Monday</p>'
+          f'<h1>Black Friday 2026: kody rabatowe AliExpress</h1><p class="lead">Black Friday trwa do 29 listopada, a Cyber Monday od 30 listopada do 3 grudnia. Przed zakupem sprawdź kryteria w naszych poradnikach.</p></header>'
+          f'{codes_html("pl")}<section class="block reveal"><h2>Nasze poradniki</h2><ul>{links}</ul></section>'
+          f'<p class="muted small">Linki afiliacyjne. Oferty i ceny są aktualne na AliExpress w chwili wizyty.</p></article>')
+    (out_dir / "black-friday.html").write_text(page(site, "Black Friday 2026: kody rabatowe AliExpress", "Kody rabatowe AliExpress na Black Friday i Cyber Monday 2026.", bf, "black-friday.html"), encoding="utf-8")
     base = site["base_url"].rstrip("/") + "/"
-    return [base] + [f"{base}{g['slug']}.html" for g in guides] + [f"{base}{n}" for n in STATIC_PAGES]
+    return [base, f"{base}black-friday.html"] + [f"{base}{g['slug']}.html" for g in guides] + [f"{base}{n}" for n in STATIC_PAGES]

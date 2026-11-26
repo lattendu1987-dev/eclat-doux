@@ -55,8 +55,8 @@ def codes_html(lang: str) -> str:
     if not c:
         return ""
     url = f"https://www.awin1.com/cread.php?awinmid={c['mid']}&awinaffid={data['affid']}&ued={quote(c['landing'], safe='')}"
-    h = "Codes promo" if lang == "fr" else "Promo codes"
-    btn = "Voir les offres" if lang == "fr" else "See the deals on"
+    h = {"fr": "Codes promo", "pl": "Kody rabatowe"}.get(lang, "Promo codes")
+    btn = {"fr": "Voir les offres", "pl": "Zobacz oferty"}.get(lang, "See the deals on")
     sep = " : " if lang == "fr" else ": "
     rows = "".join(f'<li><strong>{e(code)}</strong>{sep}{e(txt)}</li>' for code, txt in c["codes"])
     periods = "".join(f"<li>{e(x)}</li>" for x in c["periods"])
