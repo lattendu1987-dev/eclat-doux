@@ -7,7 +7,7 @@ tagline = "Poradniki zakupowe o pielęgnacji skóry, zwłaszcza gdy mróz i ogrz
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/pl/"
 awin_mid = "12044"
 awin_affid = "3138840"
-updated = "2026-11-24"
+updated = "2026-11-27"
 
 [[guide]]
 slug = "balsam-do-ust-spierzchniete-usta"
@@ -408,4 +408,38 @@ picks = [
 ]
 faq = [
   { q = "Jak sprawić, by szminka przetrwała kolację?", a = "Najpierw obrysuj usta konturówką, nałóż jedną warstwę, odciśnij chusteczką i nałóż drugą." },
+]
+
+[[guide]]
+slug = "relaksujaca-kapiel-zima"
+icon = "🛀"
+title = "Relaksująca kąpiel zimą: sole, olejki i akcesoria na przytulny rytuał"
+description = "Sole do kąpieli, olejki, kule, poduszka: na co zwrócić uwagę, by kąpiel była chwilą relaksu bez wysuszania skóry."
+intro = "Gdy jest zimno i wcześnie robi się ciemno, gorąca kąpiel to jedna z najprzyjemniejszych chwil tygodnia. Kilka dobrze dobranych kosmetyków zamienia ją w rytuał relaksu, jeśli pamiętasz o skórze."
+sections = [
+  { h = "Kosmetyki do kąpieli", bullets = [
+      "Sole do kąpieli: lubiane za uczucie relaksu, zapachowe lub bezzapachowe.",
+      "Olejek do kąpieli: zostawia miękki film na skórze, dobry dla skóry suchej.",
+      "Kule do kąpieli: musujące i pachnące, idealne na mały prezent.",
+      "Mleczko do kąpieli: sprawia, że woda jest miękka i mleczna.",
+  ] },
+  { h = "Akcesoria, które robią różnicę", bullets = [
+      "Poduszka pod kark.",
+      "Półka na wannę na książkę lub ciepły napój.",
+      "Gruby, puszysty ręcznik lub szlafrok.",
+  ] },
+  { h = "Dobre nawyki", bullets = [
+      "Ciepła, ale nie wrząca woda; 15–20 minut wystarczy.",
+      "Olejek sprawia, że wanna jest śliska: opłucz ją po kąpieli.",
+      "Zaraz po kąpieli nałóż balsam lub krem do ciała.",
+      "Przy skórze wrażliwej wybieraj kosmetyki bez zapachu.",
+  ] },
+]
+picks = [
+  { label = "Sole do kąpieli", why = "Na chwilę relaksu.", query = "relaxing bath salts" },
+  { label = "Zestawy kul do kąpieli", why = "Idealne na mały prezent.", query = "bath bomb gift set" },
+  { label = "Półki na wannę", why = "Książka i napój pod ręką.", query = "bamboo bathtub tray" },
+]
+faq = [
+  { q = "Czy kąpiel wysusza skórę?", a = "Bardzo gorąca woda i długie kąpiele mogą ją wysuszać. Wybieraj ciepłą wodę i od razu nawilżaj skórę." },
 ]

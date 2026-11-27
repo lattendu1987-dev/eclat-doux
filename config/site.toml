@@ -10,7 +10,7 @@ name = "Éclat Doux"
 tagline = "Guides d'achat pour prendre soin de sa peau, surtout quand le froid et le chauffage l'assèchent."
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/"
 amazon_tag = "pattesauchaud-21"
-updated = "2026-11-24"
+updated = "2026-11-27"
 
 [[guide]]
 slug = "baume-levres-gercees"
@@ -429,4 +429,39 @@ picks = [
 ]
 faq = [
   { q = "Comment faire tenir le rouge à lèvres pendant le repas ?", a = "Tracez d'abord le contour au crayon, appliquez une couche, tamponnez avec un mouchoir puis remettez une seconde couche." },
+]
+
+[[guide]]
+slug = "bain-relaxant-hiver"
+date = "2026-11-27"
+icon = "🛀"
+title = "Bain relaxant en hiver : sels, huiles et accessoires pour un vrai moment cocooning"
+description = "Sels de bain, huiles, bombes de bain, coussin : les critères pour transformer un bain en pause détente sans assécher la peau."
+intro = "Quand il fait froid et nuit tôt, un bain chaud est l'un des moments les plus réconfortants de la semaine. Quelques produits bien choisis en font un vrai rituel de détente, à condition de penser à la peau."
+sections = [
+  { h = "Les produits pour le bain", bullets = [
+      "Sels de bain : appréciés pour la sensation de détente, avec ou sans parfum.",
+      "Huile de bain : laisse un film doux sur la peau, pratique pour les peaux sèches.",
+      "Bombes de bain : effervescentes et parfumées, idéales en petit cadeau.",
+      "Lait de bain : rend l'eau douce et laiteuse.",
+  ] },
+  { h = "Les accessoires qui changent tout", bullets = [
+      "Un coussin de bain pour la nuque.",
+      "Un plateau de baignoire pour poser un livre ou une boisson chaude.",
+      "Une serviette ou un peignoir bien moelleux pour la sortie.",
+  ] },
+  { h = "Les bons gestes", bullets = [
+      "Une eau chaude mais pas brûlante, et un bain de 15 à 20 minutes suffisent.",
+      "Attention, l'huile de bain rend la baignoire glissante : rincez-la après.",
+      "Appliquez une crème ou un lait corps juste après le bain.",
+      "Choisissez des produits sans parfum si votre peau est sensible.",
+  ] },
+]
+picks = [
+  { label = "Sels de bain", why = "Pour un moment de détente.", query = "sels de bain relaxants" },
+  { label = "Coffrets bombes de bain", why = "Parfaits en petit cadeau.", query = "coffret bombes de bain" },
+  { label = "Plateaux de baignoire", why = "Livre et boisson chaude à portée.", query = "plateau de baignoire bambou" },
+]
+faq = [
+  { q = "Un bain dessèche-t-il la peau ?", a = "Une eau très chaude et un bain trop long peuvent la dessécher. Restez sur une eau tiède à chaude et hydratez votre peau juste après." },
 ]

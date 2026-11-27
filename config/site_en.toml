@@ -7,7 +7,7 @@ tagline = "Buying guides to care for your skin, especially when cold weather and
 base_url = "https://lattendu1987-dev.github.io/eclat-doux/en/"
 amazon_tag = "warmpaws-20"
 amazon_domain = "www.amazon.com"
-updated = "2026-11-24"
+updated = "2026-11-27"
 
 [[guide]]
 slug = "lip-balm-chapped-lips"
@@ -420,4 +420,39 @@ picks = [
 ]
 faq = [
   { q = "How do I keep lipstick on through dinner?", a = "Line your lips first, apply one coat, blot with a tissue, then add a second coat." },
+]
+
+[[guide]]
+slug = "relaxing-bath-winter"
+date = "2026-11-27"
+icon = "🛀"
+title = "Relaxing winter bath: salts, oils and accessories for a cozy ritual"
+description = "Bath salts, oils, bath bombs, pillows: what to look for to turn a bath into a relaxing break without drying your skin."
+intro = "When it's cold and dark early, a hot bath is one of the most comforting moments of the week. A few well-chosen products turn it into a relaxing ritual, as long as you think about your skin."
+sections = [
+  { h = "Bath products", bullets = [
+      "Bath salts: popular for that relaxing feel, scented or unscented.",
+      "Bath oil: leaves a soft film on the skin, handy for dry skin.",
+      "Bath bombs: fizzy and fragrant, great as a small gift.",
+      "Bath milk: makes the water soft and milky.",
+  ] },
+  { h = "Accessories that make a difference", bullets = [
+      "A bath pillow for your neck.",
+      "A bathtub tray for a book or a hot drink.",
+      "A thick, fluffy towel or robe for afterwards.",
+  ] },
+  { h = "Good habits", bullets = [
+      "Warm rather than scalding water, and 15 to 20 minutes is plenty.",
+      "Bath oil makes the tub slippery: rinse it afterwards.",
+      "Apply body lotion or cream right after.",
+      "Pick fragrance-free products if your skin is sensitive.",
+  ] },
+]
+picks = [
+  { label = "Bath salts", why = "For a relaxing moment.", query = "relaxing bath salts" },
+  { label = "Bath bomb gift sets", why = "Perfect as a small gift.", query = "bath bomb gift set" },
+  { label = "Bathtub trays", why = "Keep a book and drink within reach.", query = "bamboo bathtub tray" },
+]
+faq = [
+  { q = "Does a bath dry out skin?", a = "Very hot water and long soaks can. Keep the water warm and moisturize right after." },
 ]
