@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /kit-partage.html
+Sitemap: https://lattendu1987-dev.github.io/eclat-doux/sitemap.xml
